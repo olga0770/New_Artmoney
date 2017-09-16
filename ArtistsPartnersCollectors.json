@@ -1,0 +1,22 @@
+[
+    {
+        "id":"artists",
+
+        "text":" Artists make their own money."
+        },
+
+    {
+        "id":"partners",
+
+        "text":"Partners-companies accept artmoney as payment."
+        },
+
+
+
+    {
+        "id":"collectors",
+
+        "text":"Collectors buy artmoney as inexpensive, original art."
+        }
+
+]

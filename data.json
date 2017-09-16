@@ -1,0 +1,75 @@
+[
+    {
+        "id":"Praktikpladser",
+        "navn":"PRAKTIK PLADSER",
+        "text":"Regionerne og kommunerne, skal de gøre mere for at sikre dem?"
+        },
+
+    {
+        "id":"Flygtninge",
+        "navn":"FLYGTNINGE",
+        "text":"Hvem skal have de billige boliger og hvordan bliver de en del af os?"
+        },
+
+    {
+        "id":"Fritiden",
+        "navn":"FRITIDEN",
+        "text":"Idræt, musik, sport, skaterbaner, musicals, mødesteder for unge, bevillinger."
+        },
+
+    {
+        "id":"Miljoe",
+        "navn":"MILJØ",
+        "text":"Parker eller asfalt, biler eller cykelstier, affaldssortering."
+        },
+
+
+    {
+        "id":"Transport",
+        "navn":"TRANSPORT",
+        "text":"Busser, forbindelser, priser"
+        },
+
+
+    {
+        "id":"Arbejde",
+        "navn":"ARBEJDE",
+        "text":"Arbejde/uddannelse, de arbejdsløse, seje iværksættere, diagnoser i job, fritidsjob til udsatte."
+        },
+
+
+    {
+        "id":"Uddannelse",
+        "navn":"UDDANNELSE",
+        "text":"Folkeskoler, ungdomsskoler, produktionsskoler, VUC."
+        },
+
+
+    {
+        "id":"Virksomheder",
+        "navn":"VIRKSOMHEDER",
+        "text":"Steder at arbejde i fritiden, rigtige jobs når du er uddannet."
+        },
+
+
+    {
+        "id":"Farmor",
+        "navn":"FARMOR",
+        "text":"Hvor meget skal hun have af det fælles budget."
+        },
+
+
+    {
+        "id":"Udsatte",
+        "navn":"UDSATTE UNGE",
+        "text":"Hjemløse, misbrug, overgreb, kriminalitet."
+        },
+
+
+    {
+        "id":"Hospitaler",
+        "navn":"NÅR MAN BLIVER SYG",
+        "text":"(Læge / akuttelefon / sygehus / medicin) – regionerne."
+        }
+
+]

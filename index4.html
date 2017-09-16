@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <link rel="icon"
+    type="image/png"
+    href="picture/favicon.png">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Artmoney</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="background">
+<div class="fon">
+</div>
+</div>
+
+<br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="star.js"></script>
+    <script src="cross.js"></script>
+
+
+
+
+
+
+    <!-- Plugin JavaScript -->
+    <script src="js/popcorn-complete.js"></script>
+
+    <script>
+
+    var videoid = document.querySelector("#radissonsvideo");
+    var popcornvideo = Popcorn(videoid);
+
+    // vis CTA når video er slut
+
+    videoid.addEventListener("ended", function(e){
+    $("#endcredits").show();
+    })
+
+    popcornvideo.footnote({
+    start:2,
+    end:6,
+    text:"Popcorn video!",
+    target: "annotation"
+    });
+
+
+//    popcornvideo.play();
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
