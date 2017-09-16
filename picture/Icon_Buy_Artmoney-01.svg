@@ -1,0 +1,22 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 169 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>Icon_Buy_Artmoney</title>
+  <g>
+    <path class="cls-1" d="M109.83,36.88,118.94,83H53.54l9.1-46.16h47.2m.82-1H61.82L52.32,84h67.83l-9.5-48.16Z"/>
+    <circle class="cls-1" cx="73.35" cy="48.09" r="3.39"/>
+    <circle class="cls-1" cx="97.77" cy="48.09" r="3.39"/>
+    <path class="cls-2" d="M97.77,49.44c-.2-21.84-5.58-39.34-12.21-39.34s-12,17.51-12.21,39.34"/>
+  </g>
+</svg>

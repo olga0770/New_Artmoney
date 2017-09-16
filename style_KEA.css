@@ -1,0 +1,245 @@
+/*
+1: Reset
+2: Scaffold
+3: Typografi
+4: HTML elementer
+5: Formularer
+6: Header
+7: Navigation
+8: Indhold: Posts og pages
+9: Page specific CSS
+10: Footer
+11: Media queries
+*/
+
+
+/*1: Reset*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*2: Scaffold*/
+
+
+/*3: Typografi*/
+
+html {
+    font-size: 1.25rem;
+}
+
+/*4: HTML elementer*/
+
+
+/*5: Formularer*/
+
+
+/*6: Header*/
+
+
+/*7: Navigation*/
+
+nav li {
+    display: inline-flex;
+}
+
+/*8: Indhold: Posts og pages*/
+
+header{
+    padding: 2rem 0;
+}
+
+.postsummary {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid black;
+}
+.postsummary:hover img {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+.postthumb {
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+.postthumb img {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+.postmeta {
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    padding: 1rem;
+}
+
+/*9: Page specific CSS*/
+
+
+/*10: Footer*/
+.fullwidth {
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/*11: Media queries*/
+
+/*Media queries til tablet*/
+
+@media only screen and (min-width: 48em) {
+    .container-fluid {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+/*Media queries til mindre computer*/
+
+@media only screen and (min-width: 64em) {
+    .container-fluid {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+}
+
+/*Media queries til laptop/desktop*/
+
+@media only screen and (min-width: 75em) {}
