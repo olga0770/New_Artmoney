@@ -1,46 +1,40 @@
 [
 {
-		"id": "1",
+"id": "1",
 "art": "collection_Lars_01",
-"collectionlink": "http://artmoney.org/artmoney/model-back-view-2"
-
-
+"collectionlink": "http://artmoney.org/artmoney/model-back-view-2",
+"arttitle": "Model back view",
+"artist": "Lars Christian Kræmmer"
 },
-
-
 
 
 
 {
-		"id": "2",
-
-		"art": "collection_Lars_02",
-    "collectionlink": "http://artmoney.org/artmoney/model-back-view-2"
-
-
+"id": "2",
+"art": "collection_Lars_02",
+"collectionlink": "http://artmoney.org/artmoney/model-38",
+"arttitle": "http://artmoney.org/artmoney/model-38",
+"artist": "Lars Christian Kræmmer"
 },
 
 
 
-    {
-		"id": "3",
-
-		"art": "collection_Lars_03",
-        "collectionlink": "http://artmoney.org/artmoney/model-back-view-2"
-
-
+{
+"id": "3",
+"art": "collection_Lars_03",
+"collectionlink": "http://artmoney.org/artmoney/model-laying-down-0",
+"arttitle": "Model - laying down",
+"artist": "Lars Christian Kræmmer"
 },
 
 
 
-
-    {
-		"id": "4",
-
-		"art": "collection_Lars_04",
-        "collectionlink": "http://artmoney.org/artmoney/model-back-view-2"
-
-
+{
+"id": "4",
+"art": "collection_Lars_04",
+"collectionlink": "http://artmoney.org/artmoney/model-front-18",
+"arttitle": "Model - front",
+"artist": "Lars Christian Kræmmer"
 }
 
 

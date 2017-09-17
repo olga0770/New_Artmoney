@@ -27,20 +27,19 @@ function visCollection(collection) {
 
 
     //indsæt data i klon
-    klon.querySelector(".data_collectionlink").innerHTML = collection.collectionlink;
+    klon.querySelector(".data_collectionlink").href = collection.collectionlink;
 
-//    var element_debug = klon.querySelector(".data_arttitle");
-//    console.log("element_debug: " + element_debug);
+
 
     klon.querySelector(".data_art").src = "picture/" + collection.art + "_art.jpg";
 
-/*
-    klon.querySelector(".data_arttitle").innerHTML = collection.arttitle;
-*/
-//    klon.querySelector(".data_artist").innerHTML = collection.artist;
+
+klon.querySelector(".data_arttitle").innerHTML = collection.arttitle;
+
+klon.querySelector(".data_artist").innerHTML = collection.artist;
 
 
-    document.querySelector(".picture").appendChild(klon);
+document.querySelector(".picture").appendChild(klon);
 
 
 
