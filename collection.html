@@ -74,14 +74,9 @@
         <a class="nav-link" href="faq.html">FAQ </a>
       </li>
 
+</ul>
 
-
-
-    </ul>
-
-
-
-    <form class="form-inline my-2 my-lg-0">
+<form class="form-inline my-2 my-lg-0">
     <input class="form-control mr-sm-2" type="text" style="border-radius: 0 !important" placeholder="SEARCH" aria-label="Search">
     </form>
 
@@ -99,6 +94,176 @@
 
   </div>
 </nav>
+
+
+
+
+<div class="d-sm-none filtermobile"></div>
+
+
+
+<div class="container-fluid">
+<div class="row">
+
+<div class="col-sm-4 col-md-3 filter"></div>
+
+<div class="col-sm-8 col-md-9 collection">
+
+<div class="container-fluid">
+<div class="row">
+
+
+<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
+
+<template id="collection_template">
+
+<img class="img-responsive data_art" src="picture/collection_Lars_01_art.jpg" alt="Avatar">
+
+<a class="data_collectionlink" href="http://artmoney.org/artmoney/model-back-view-2"></a>
+
+</template>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
+<a class="collection-link" href="http://artmoney.org/artmoney/model-back-view-2">
+  <img src="picture/collection_Lars_02.jpg" alt="Avatar" class="artimage">
+  <div class="overlay">
+    <div class="text">
+    <h4>Model back view</h4>
+    <p>Lars Christian Kræmmer</p>
+    </div>
+  </div></a>
+</div>
+
+
+<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
+<a class="collection-link" href="http://artmoney.org/artmoney/model-back-view-2">
+  <img src="picture/collection_Lars_03.jpg" alt="Avatar" class="artimage">
+  <div class="overlay">
+    <div class="text">
+    <h4>Model back view</h4>
+    <p>Lars Christian Kræmmer</p>
+    </div>
+  </div></a>
+</div>
+
+
+<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
+<a class="collection-link" href="http://artmoney.org/artmoney/model-back-view-2">
+  <img src="picture/collection_Lars_04.jpg" alt="Avatar" class="artimage">
+  <div class="overlay">
+    <div class="text">
+    <h4>Model back view</h4>
+    <p>Lars Christian Kræmmer</p>
+    </div>
+  </div></a>
+</div>
+
+-->
+
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+<style>
+
+.row{
+margin-left: -15px;
+margin-right: -15px;
+padding-left: -15px;
+padding-right: -15px;
+
+    }
+
+
+.picture {
+position: relative;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.artimage {
+display: block;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #000;
+}
+
+.picture:hover .overlay {
+opacity: 0.7;
+}
+
+.text {
+color: white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+
+
+.filter{
+background-color: #f0f0f0;
+}
+
+.filtermobile{
+background-color: #f0f0f0;
+height: 200px;
+}
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -172,15 +337,10 @@ CVR/VAT #: 28899165<br><br><br>
 
 
 
+    <script src="collection.js"></script>
 
-
-
-
-
-    <!-- Artists Partners Collectors Scripts -->
+    <!-- Other jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <script src="ArtistsPartnersCollectors.js"></script>
 
 
 
@@ -212,51 +372,6 @@ CVR/VAT #: 28899165<br><br><br>
 
         }())
     </script>
-
-
-
-<script>
-$(document).ready(function () {
-    $(window).on('load scroll', function () {
-        var scrolled = $(this).scrollTop();
-        $('#title').css({
-            'transform': 'translate3d(0, ' + -(scrolled * 0.2) + 'px, 0)', // parallax (20% scroll rate)
-            'opacity': 1 - scrolled / 400 // fade out at 400px from top
-        });
-    });
-});
-</script>
-
-
-
-
-<!-- Plugin JavaScript Video Call to action -->
-    <script src="js/popcorn-complete.js"></script>
-
-    <script>
-    var videoid = document.querySelector("#radissonsvideo");
-    var popcornvideo = Popcorn(videoid);
-    // vis CTA når video er slut
-
-    videoid.addEventListener("ended", function(e){
-    $("#endcredits").show();
-    })
-
-    popcornvideo.footnote({
-    start:2,
-    end:6,
-    text:"Popcorn video!",
-    target: "annotation"
-    });
-    //    popcornvideo.play();
-    </script>
-
-
-
-
-
-
-
 
 
 
