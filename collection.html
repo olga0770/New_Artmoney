@@ -108,17 +108,13 @@
 <div class="col-sm-4 col-md-3 filter"></div>
 
 <div class="col-sm-8 col-md-9 collection">
-
 <div class="container-fluid">
-<div class="row">
-
-
-<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
-
+<div class="row gallery">
 
 <template id="collection_template">
+<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
 <a class="data_collectionlink" href="">
-<img class="img-responsive data_art" src="" alt="Avatar">
+<img class="img-responsive data_art artimage" src="" alt="Artmoney">
 <div class="overlay">
     <div class="text">
     <h4 class="data_arttitle">DATA_ARTTITLE</h4>
@@ -126,17 +122,12 @@
     </div>
   </div>
 </a>
+</div>
 </template>
 
-
-</div>
-
-
-
 </div>
 </div>
 </div>
-
 </div>
 </div>
 
@@ -144,98 +135,26 @@
 
 
 
-<div class="container-fluid">
-<div class="row">
 
-<div class="col-sm-4 col-md-3 filter"></div>
-
-<div class="col-sm-8 col-md-9 collection">
-
-<div class="container-fluid">
-<div class="row">
-
-
-
-<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
-<a class="collection-link" href="http://artmoney.org/artmoney/model-back-view-2">
-  <img src="picture/collection_Lars_01_art.jpg" alt="Avatar" class="artimage">
-  <div class="overlay">
-    <div class="text">
-    <h4>Model back view</h4>
-    <p>Lars Christian Kræmmer</p>
-    </div>
-  </div></a>
-</div>
-
-
-
-<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
-<a class="collection-link" href="http://artmoney.org/artmoney/model-back-view-2">
-  <img src="picture/collection_Lars_02_art.jpg" alt="Avatar" class="artimage">
-  <div class="overlay">
-    <div class="text">
-    <h4>Model back view</h4>
-    <p>Lars Christian Kræmmer</p>
-    </div>
-  </div></a>
-</div>
-
-
-<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
-<a class="collection-link" href="http://artmoney.org/artmoney/model-back-view-2">
-  <img src="picture/collection_Lars_03_art.jpg" alt="Avatar" class="artimage">
-  <div class="overlay">
-    <div class="text">
-    <h4>Model back view</h4>
-    <p>Lars Christian Kræmmer</p>
-    </div>
-  </div></a>
-</div>
-
-
-<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
-<a class="collection-link" href="http://artmoney.org/artmoney/model-back-view-2">
-  <img src="picture/collection_Lars_04_art.jpg" alt="Avatar" class="artimage">
-  <div class="overlay">
-    <div class="text">
-    <h4>Model back view</h4>
-    <p>Lars Christian Kræmmer</p>
-    </div>
-  </div></a>
-</div>
-
-
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
 
 
 
 <style>
-
 .row{
 margin-left: -15px;
 margin-right: -15px;
 padding-left: -15px;
 padding-right: -15px;
 }
-
-
 .picture {
 position: relative;
 margin-top: 15px;
 margin-bottom: 15px;
 }
-
 .artimage {
 display: block;
 height: auto;
 }
-
 .overlay {
 position: absolute;
 top: 0;
@@ -248,11 +167,9 @@ opacity: 0;
 transition: .5s ease;
 background-color: #000;
 }
-
 .picture:hover .overlay {
 opacity: 0.7;
 }
-
 .text {
 color: white;
 position: absolute;
@@ -261,17 +178,13 @@ left: 50%;
 transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
 }
-
-
 .filter{
 background-color: #f0f0f0;
 }
-
 .filtermobile{
 background-color: #f0f0f0;
 height: 200px;
 }
-
 </style>
 
 

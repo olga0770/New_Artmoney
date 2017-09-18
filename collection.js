@@ -39,7 +39,7 @@ klon.querySelector(".data_arttitle").innerHTML = collection.arttitle;
 klon.querySelector(".data_artist").innerHTML = collection.artist;
 
 
-document.querySelector(".picture").appendChild(klon);
+document.querySelector(".gallery").appendChild(klon);
 
 
 
