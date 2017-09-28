@@ -270,10 +270,34 @@ width:100%;
 #title h1 {
 background-color:rgba(0,0,0,.2);
 font-family:"roboto thin";
-font-size:3.375em;
+font-size:4em;
 padding:.5em .725em;
-
 }
+
+
+#title p {
+background-color:rgba(0,0,0,0.9);
+font-family:"roboto thin";
+font-size:1em;
+text-align: wright;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+margin-bottom: 0em;
+padding-left: 15px;
+padding-right: 15px;
+color:rgba(255,255,255,1);
+letter-spacing: 1px;
+}
+
+
+#title .needcash {
+padding-right: 1.6em;
+}
+
+#title .moto {
+margin-top: 3em;
+}
+
 
 #content {
 background-color:#151515;
@@ -321,6 +345,53 @@ color: #000 !important;
 
 footer a:hover {
 color: #999 !important;
+}
+
+
+
+
+.paypal {
+    width: 175px;
+    height: 50px;
+    background-image: url(picture/PayPal-01.svg);
+    position: relative;
+    margin-top: 15px;
+    }
+
+
+.googlemap {
+    width: 100px;
+    height: 100px;
+    background-image: url(picture/Google_Map-01.svg);
+    position: relative;
+    }
+
+.social_media{
+position: relative;
+top: 0px;
+}
+
+.facebook{
+width: 60px;
+height: 60px;
+background-image: url(picture/icon_Facebook-01.svg);
+position: absolute;
+}
+
+.instagram{
+width: 60px;
+height: 60px;
+background-image: url(picture/icon_Instagram-01.svg);
+position: absolute;
+left: 60px;
+}
+
+.pinterest{
+width: 60px;
+height: 60px;
+background-image: url(picture/icon_Pinterest-01.svg);
+position: absolute;
+left: 120px;
 }
 
 
