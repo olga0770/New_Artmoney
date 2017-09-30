@@ -89,28 +89,33 @@ width:100%;
 
 
 
-.signin {
-    width: 80px;
-    height: 80px;
-    background-image: url(picture/icon-Sign_In-01.svg);
-    position: absolute;
-    top: 0px;
-    left: 100%;
-    margin-left: -160px;
-    z-index: 1;
+
+
+
+nav{
+z-index: 1;
 }
 
-
-
-
 .navbar-dark {
-opacity: 0.7;
 margin-top: 85px;
 }
 
 
-nav a, a:visited {
+.index {
+opacity: 0.7;
+}
+
+
+.navbar-dark a:visited{
 color: #fff !important;
+}
+
+.navbar-dark a{
+color: #fff !important;
+}
+
+.navbar-dark a:hover {
+color: #ccc !important;
 }
 
 
@@ -279,7 +284,21 @@ padding:.5em .725em;
 background-color:rgba(0,0,0,0.9);
 font-family:"roboto thin";
 font-size:1em;
-text-align: wright;
+text-align: right;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+margin-bottom: 0em;
+padding-left: 15px;
+padding-right: 15px;
+color:rgba(255,255,255,1);
+letter-spacing: 1px;
+}
+
+.currency {
+background-color:rgba(0,0,0,0.9);
+font-family:"roboto thin";
+font-size:1em;
+text-align:right;
 padding-top: 0.2em;
 padding-bottom: 0.2em;
 margin-bottom: 0em;
@@ -325,8 +344,6 @@ margin-bottom: 30px;
 color: #fff !important;
 }
 
-
-
 #content a:hover {
 color: #999 !important;
 }
@@ -348,6 +365,15 @@ color: #999 !important;
 }
 
 
+.pagination a:hover {
+color: #999 !important;
+}
+
+.pagination a, a:visited {
+color: #ccc !important;
+}
+
+
 
 
 .paypal {
@@ -363,6 +389,14 @@ color: #999 !important;
     width: 100px;
     height: 100px;
     background-image: url(picture/Google_Map-01.svg);
+    position: relative;
+    }
+
+
+.googlemap_bw {
+    width: 100px;
+    height: 100px;
+    background-image: url(picture/Google_Map-BW-01.svg);
     position: relative;
     }
 
@@ -396,12 +430,100 @@ left: 120px;
 
 
 
-nav a, a:visited {
-color: #fff !important;
+
+
+
+.image_account{
+margin-top: 30px;
+margin-bottom: 20px;
 }
 
-nav a:hover {
+.text_account{
+color: #000;
+}
+
+
+.text_account a, a:visited {
+color: #000 !important;
+}
+
+.text_account a:hover {
 color: #999 !important;
+}
+
+#evaluation{
+margin-bottom: 0px;
+}
+
+
+.description_account{
+color: #000;
+}
+
+
+
+.filter{
+background-color: #f0f0f0;
+}
+
+.picture_description{
+margin-top: 30px;
+padding-bottom: 30px;
+}
+
+
+.picture_description h3{
+margin-top: 0px;
+}
+
+
+.picture_description p, h3{
+color: #000;
+}
+
+
+.picture{
+padding-top: 50px;
+padding-bottom: 70px;
+}
+
+
+.partner_logo{
+width: 40%;
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+
+.partners_description h4{
+margin-top: 0px;
+padding-top: 0px;
+margin-bottom: 5px;
+}
+
+.partners_description a, a:visited, a:hover{
+color: #999;
+text-decoration:inherit;
+}
+
+.partners_description{
+color: #000;
+margin-left: -100px;
+}
+
+.partners{
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.find_partners{
+color: #000;
+background-color: #e6e6e6;
+margin-left: -15px;
+margin-right: -15px;
+padding: 15px;
+
 }
 
 

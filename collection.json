@@ -2,8 +2,8 @@
 {
 "id": "1",
 "art": "collection_Lars_01",
-"collectionlink": "http://artmoney.org/artmoney/model-back-view-2",
-"arttitle": "Model back view",
+"collectionlink": "picture_landscape.html",
+"arttitle": "Back view",
 "artist": "Lars Christian Kræmmer"
 },
 
@@ -23,7 +23,7 @@
 "id": "3",
 "art": "collection_Lars_03",
 "collectionlink": "http://artmoney.org/artmoney/model-laying-down-0",
-"arttitle": "Model - laying down",
+"arttitle": "Laying down",
 "artist": "Lars Christian Kræmmer"
 },
 
@@ -34,6 +34,42 @@
 "art": "collection_Lars_04",
 "collectionlink": "http://artmoney.org/artmoney/model-front-18",
 "arttitle": "Model - front",
+"artist": "Lars Christian Kræmmer"
+},
+
+
+{
+"id": "5",
+"art": "collection_Lars_05",
+"collectionlink": "http://artmoney.org/artmoney/flywithme-20154",
+"arttitle": "Flywithme 2015/4",
+"artist": "Lars Christian Kræmmer"
+},
+
+
+{
+"id": "6",
+"art": "collection_Lars_06",
+"collectionlink": "http://artmoney.org/artmoney/portrait-of-model",
+"arttitle": "Portrait of model",
+"artist": "Lars Christian Kræmmer"
+},
+
+
+{
+"id": "7",
+"art": "collection_Lars_07",
+"collectionlink": "http://artmoney.org/artmoney/friends-2",
+"arttitle": "Friends",
+"artist": "Lars Christian Kræmmer"
+},
+
+
+{
+"id": "8",
+"art": "collection_Lars_08",
+"collectionlink": "http://artmoney.org/artmoney/botanisk-have-5",
+"arttitle": "Botanisk Have 5",
 "artist": "Lars Christian Kræmmer"
 }
 

@@ -38,7 +38,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-dark index" style="background-color: #000;">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #828282;">
 <!--  <a class="navbar-brand" href="#">Navbar</a>-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-radius: 0 !important">
     <span class="navbar-toggler-icon"></span>
@@ -46,10 +46,8 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-
-
-    <li class="nav-item">
-        <a class="nav-link" href="index.html">HOME </a>
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
       </li>
 
       <li class="nav-item">
@@ -86,127 +84,124 @@
 
     <a href="account.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">LOG IN</a>
 
-
 </div>
 </nav>
 
 
+<p class="currency">Alternative currency made of original art</p>
 
 
 
-
-
-
-
-
-
-
-
-
-<div id="overlay">
-<div id="title"><p>Alternative currency made of original art</p>
-    <div class="container-fluid">
-    <div class="row justify-content-end moto">
-    <div class="col-xs-8 col-sm-8 col-mg-8 col-lg-8 needcash">
-    <img src="picture/Need_Cash-01.svg" alt="needcash">
-    </div>
-    </div>
-    </div>
-</div>
-
-
-    <video class="visible-desktop" id="hero-vid"  autoplay loop>
-        <source type="video/mp4" src="video/Brush.mp4">
-    </video>
-
-    <img id="hero-pic" class="hidden-desktop" src="video/video_poster.jpg" alt="poster">
-</div>
-
-
-
-
-<div id="content">
-
-<h2>WHO? WHERE? HOW?</h2>
-
+<!--<div class="d-sm-none filtermobile"></div>-->
 
 
 
 <div class="container-fluid">
-<div class="row justify-content-center">
-<div class="col-xs-12 col-lg-10">
+<div class="row">
 
-<div id="icon"></div>
-
-<div class="info_box">
-<div class="table person_data">
-
-<div class="text">
-<h3 class="data_text"></h3>
-</div>
-</div>
-</div>
-<br><br>
-
-
-<p>Welcome to a world of imagination and real human relations through creativity! The basic idea of artmoney is, that artists produce a hand-made currency at a fixed value that can be spend at regular shops.</p>
-
-
-</div>
-</div>
+<div class="col-xs-12 col-sm-4 col-md-3 filter">
+<h3>FILTERS</h3>
 </div>
 
-
-
-
-
-
-
-
+<div class="col-xs-12 col-sm-8 col-md-9 partner_list">
 <div class="container-fluid">
-<div class="row justify-content-center">
-<div class="col-lg-8">
-<div class="videocontainer">
-<video width="100%" height="100%" controls id="radissonsvideo" >
-<source src="video/Lars.mp4">
-Your borwser does not support the video tag.
-</video>
+<div class="row partners">
 
+<template id="partner_template">
+<div class="col-xs-12 col-md-10 col-lg-6 col-xl-4">
 
-<div id="endcredits">
-<div id="endcreditsbutton">
-<a href="signup.html" class="btn btn-outline-light btn-lg btn-square">SIGN UP</a>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-
-
+<a class="data_partnerlink" href="">
 <div class="container-fluid">
-<div class="row justify-content-center">
+<div class="row align-items-center">
 
-<div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="signup.html"><img src="picture/Icon_Sell_Artmoney-01.svg" alt="icon">
-<h5>SELL ARTMONEY</h5></a>
+
+<div class="col-xs-1">
+<img class="img-responsive data_art partner_logo" src="" alt="company">
 </div>
 
-<div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="collection.html"><img src="picture/Icon_Buy_Artmoney-01.svg" alt="icon">
-<h5>BUY ARTMONEY</h5></a>
-</div>
-
-<div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="partners.html"><img src="picture/Icon_Use_Artmoney-01.svg" alt="icon">
-<h5>USE ARTMONEY</h5></a>
+<div class="col-xs-11 partners_description">
+<h4 class="data_company">DATA_COMPANY</h4>
+<p class="data_country">DATA_COUNTRY</p>
 </div>
 
 </div>
 </div>
+</a>
 
 </div>
+</template>
+
+</div>
+</div>
+
+
+
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" style="border-radius: 0 !important">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#"style="border-radius: 0 !important">Next</a>
+    </li>
+  </ul>
+</nav>
+<br>
+
+
+<div class="find_partners"><h4>FIND OUR PARTNERS</h4>
+<h5>THAT ARE CLOSE TO YOU AT THE MOMENT</h5>
+<a href="https://www.google.dk/maps/place/Kronprinsesse+Sofies+Vej+7,+2000+Frederiksberg/@55.6876051,12.5302905,17z/data=!3m1!4b1!4m5!3m4!1s0x465253b734e2f4e3:0x886a5c4a36c3015f!8m2!3d55.6876051!4d12.5324792"><div class="googlemap"></div></a>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <section id="address">
@@ -285,17 +280,10 @@ CVR/VAT #: 28899165<br><br><br>
 
 
 
+    <script src="partners.js"></script>
 
-
-
-
-
-
-    <!-- Artists Partners Collectors Scripts -->
-      <!-- Other jquery -->
+    <!-- Other jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <script src="ArtistsPartnersCollectors.js"></script>
 
 
 
@@ -327,51 +315,6 @@ CVR/VAT #: 28899165<br><br><br>
 
         }())
     </script>
-
-
-<!-- Plugin Parallax -->
-<script>
-$(document).ready(function () {
-    $(window).on('load scroll', function () {
-        var scrolled = $(this).scrollTop();
-        $('#title').css({
-            'transform': 'translate3d(0, ' + -(scrolled * 0.2) + 'px, 0)', // parallax (20% scroll rate)
-            'opacity': 1 - scrolled / 400 // fade out at 400px from top
-        });
-    });
-});
-</script>
-
-
-
-
-<!-- Plugin JavaScript Video Call to action -->
-    <script src="js/popcorn-complete.js"></script>
-
-    <script>
-    var videoid = document.querySelector("#radissonsvideo");
-    var popcornvideo = Popcorn(videoid);
-    // vis CTA når video er slut
-
-    videoid.addEventListener("ended", function(e){
-    $("#endcredits").show();
-    })
-
-    popcornvideo.footnote({
-    start:2,
-    end:6,
-    text:"Popcorn video!",
-    target: "annotation"
-    });
-    //    popcornvideo.play();
-    </script>
-
-
-
-
-
-
-
 
 
 

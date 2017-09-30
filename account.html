@@ -38,7 +38,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-dark index" style="background-color: #000;">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #828282;">
 <!--  <a class="navbar-brand" href="#">Navbar</a>-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-radius: 0 !important">
     <span class="navbar-toggler-icon"></span>
@@ -46,10 +46,8 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-
-
-    <li class="nav-item">
-        <a class="nav-link" href="index.html">HOME </a>
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
       </li>
 
       <li class="nav-item">
@@ -72,90 +70,45 @@
         <a class="nav-link" href="about.html">ABOUT </a>
       </li>
 
-        <li class="nav-item">
-        <a class="nav-link" href="faq.html">FAQ </a>
+         <li class="nav-item">
+        <a class="nav-link" href="about.html">FAQ </a>
       </li>
 
-</ul>
 
-<form class="form-inline my-2 my-lg-0">
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFILE</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #555; border-radius: 0 !important">
+        <a class="dropdown-item" href="#">ADD ARTMONEY</a>
+        <a class="dropdown-item" href="#">ADD EVENT</a>
+        <a class="dropdown-item" href="#">SELLING HISTORY</a>
+        <a class="dropdown-item" href="#">MESSAGES</a>
+        </div>
+        </li>
+    </ul>
+
+
+    <form class="form-inline my-2 my-lg-0">
     <input class="form-control mr-sm-2" type="text" style="border-radius: 0 !important" placeholder="SEARCH" aria-label="Search">
     </form>
 
-    <a href="#" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">SIGN UP</a>
 
-    <a href="account.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">LOG IN</a>
+    <a href="index.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">LOG OUT</a>
+
+
+
+
+
+
+
+
+
 
 
 </div>
 </nav>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="overlay">
-<div id="title"><p>Alternative currency made of original art</p>
-    <div class="container-fluid">
-    <div class="row justify-content-end moto">
-    <div class="col-xs-8 col-sm-8 col-mg-8 col-lg-8 needcash">
-    <img src="picture/Need_Cash-01.svg" alt="needcash">
-    </div>
-    </div>
-    </div>
-</div>
-
-
-    <video class="visible-desktop" id="hero-vid"  autoplay loop>
-        <source type="video/mp4" src="video/Brush.mp4">
-    </video>
-
-    <img id="hero-pic" class="hidden-desktop" src="video/video_poster.jpg" alt="poster">
-</div>
-
-
-
-
-<div id="content">
-
-<h2>WHO? WHERE? HOW?</h2>
-
-
-
-
-<div class="container-fluid">
-<div class="row justify-content-center">
-<div class="col-xs-12 col-lg-10">
-
-<div id="icon"></div>
-
-<div class="info_box">
-<div class="table person_data">
-
-<div class="text">
-<h3 class="data_text"></h3>
-</div>
-</div>
-</div>
-<br><br>
-
-
-<p>Welcome to a world of imagination and real human relations through creativity! The basic idea of artmoney is, that artists produce a hand-made currency at a fixed value that can be spend at regular shops.</p>
-
-
-</div>
-</div>
-</div>
-
+<p class="currency">Alternative currency made of original art</p>
 
 
 
@@ -164,49 +117,177 @@
 
 
 <div class="container-fluid">
-<div class="row justify-content-center">
-<div class="col-lg-8">
-<div class="videocontainer">
-<video width="100%" height="100%" controls id="radissonsvideo" >
-<source src="video/Lars.mp4">
-Your borwser does not support the video tag.
-</video>
+<div class="row justify-content-between">
 
-
-<div id="endcredits">
-<div id="endcreditsbutton">
-<a href="signup.html" class="btn btn-outline-light btn-lg btn-square">SIGN UP</a>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-
+<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 filter">
 
 <div class="container-fluid">
-<div class="row justify-content-center">
+<div class="row">
 
-<div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="signup.html"><img src="picture/Icon_Sell_Artmoney-01.svg" alt="icon">
-<h5>SELL ARTMONEY</h5></a>
+<div class="col-xs-6 col-sm-8 col-md-6">
+<img class="image_account" src="picture/My_Account_Lars.jpg" alt="Lars">
+<div id="evaluation"></div>
 </div>
 
-<div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="collection.html"><img src="picture/Icon_Buy_Artmoney-01.svg" alt="icon">
-<h5>BUY ARTMONEY</h5></a>
-</div>
+<div class="col-sm-12 col-md-6 text_account">
+<h4>Lars Christian Kræmmer</h4>
+<p>Frederiksberg<br>
+Denmark<br>
+Tel: +4524251777<br></p>
 
-<div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="partners.html"><img src="picture/Icon_Use_Artmoney-01.svg" alt="icon">
-<h5>USE ARTMONEY</h5></a>
-</div>
+<a href="http://kraemmer.dk/" class="btn btn-outline-dark btn-sm btn-square" role="button" aria-pressed="true">WEBSITE</a>
 
 </div>
 </div>
+</div>
+
+<br>
+
+<div class="container-fluid">
+<div class="row">
+
+<div class="col-sm-12 description_account">
+
+<p>
+When I invented Artmoney in December, 1997, I had no idea that it would evolve into a global alternative currency. I had an idea that with Artmoney I could skip the "sales level" and buy my products directly with art. So I imagined a life as a "free artist."<br><br>
+
+I hope that Artmoney, as it has evolved today, make artists around the world able to create a greater financial freedom for themselves, and at the same time put them in touch with like-minded people from different cultures through the wide spread network. Perhaps Artmoney can make the world a bit more human over time?<br><br>
+
+Artmoney has given me the opportunity to stay involved with drawing and painting and writing and seeking inspiration. It has lead to lots of artworks, installations, happenings, travel, meetings with interesting people and amazing experiences. Art is my excuse to live life while I am alive.
+</p>
 
 </div>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+<div class="col-xs-12 col-sm-6 col-md-7 collection">
+<div class="container-fluid">
+<div class="row gallery">
+
+<template id="collection_template">
+<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
+<a class="data_collectionlink" href="">
+<img class="img-responsive data_art artimage" src="" alt="Artmoney">
+<div class="overlay">
+    <div class="text">
+    <h4 class="data_arttitle">DATA_ARTTITLE</h4>
+    <p class="data_artist">DATA_ARTIST</p>
+    </div>
+  </div>
+</a>
+</div>
+</template>
+
+</div>
+</div>
+
+
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" style="border-radius: 0 !important">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#"style="border-radius: 0 !important">Next</a>
+    </li>
+  </ul>
+</nav>
+<br>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+.row{
+margin-left: -15px;
+margin-right: -15px;
+padding-left: -15px;
+padding-right: -15px;
+}
+.picture {
+position: relative;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.artimage {
+display: block;
+height: auto;
+}
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #000;
+}
+.picture:hover .overlay {
+opacity: 0.7;
+}
+.text {
+color: white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <section id="address">
@@ -285,17 +366,12 @@ CVR/VAT #: 28899165<br><br><br>
 
 
 
+    <script src="collection.js"></script>
 
-
-
-
-
-
-    <!-- Artists Partners Collectors Scripts -->
-      <!-- Other jquery -->
+    <!-- Other jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <script src="ArtistsPartnersCollectors.js"></script>
+    <script src="star.js"></script>
 
 
 
@@ -327,51 +403,6 @@ CVR/VAT #: 28899165<br><br><br>
 
         }())
     </script>
-
-
-<!-- Plugin Parallax -->
-<script>
-$(document).ready(function () {
-    $(window).on('load scroll', function () {
-        var scrolled = $(this).scrollTop();
-        $('#title').css({
-            'transform': 'translate3d(0, ' + -(scrolled * 0.2) + 'px, 0)', // parallax (20% scroll rate)
-            'opacity': 1 - scrolled / 400 // fade out at 400px from top
-        });
-    });
-});
-</script>
-
-
-
-
-<!-- Plugin JavaScript Video Call to action -->
-    <script src="js/popcorn-complete.js"></script>
-
-    <script>
-    var videoid = document.querySelector("#radissonsvideo");
-    var popcornvideo = Popcorn(videoid);
-    // vis CTA når video er slut
-
-    videoid.addEventListener("ended", function(e){
-    $("#endcredits").show();
-    })
-
-    popcornvideo.footnote({
-    start:2,
-    end:6,
-    text:"Popcorn video!",
-    target: "annotation"
-    });
-    //    popcornvideo.play();
-    </script>
-
-
-
-
-
-
-
 
 
 

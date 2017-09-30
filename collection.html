@@ -38,7 +38,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000;">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #828282;">
 <!--  <a class="navbar-brand" href="#">Navbar</a>-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-radius: 0 !important">
     <span class="navbar-toggler-icon"></span>
@@ -80,34 +80,30 @@
     <input class="form-control mr-sm-2" type="text" style="border-radius: 0 !important" placeholder="SEARCH" aria-label="Search">
     </form>
 
+    <a href="#" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">SIGN UP</a>
 
+    <a href="account.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">LOG IN</a>
 
-
-<div class="btn-group" data-toggle="buttons">
-  <label class="btn btn-outline-light btn-square">
-    <input type="checkbox" checked autocomplete="off">SIGN UP
-  </label>
-
-  <label class="btn btn-outline-light btn-square">
-    <input type="checkbox" autocomplete="off">LOG IN</label>
 </div>
-
-  </div>
 </nav>
 
 
+<p class="currency">Alternative currency made of original art</p>
 
 
-<div class="d-sm-none filtermobile"></div>
+
+<!--<div class="d-sm-none filtermobile"></div>-->
 
 
 
 <div class="container-fluid">
 <div class="row">
 
-<div class="col-sm-4 col-md-3 filter"></div>
+<div class="col-xs-12 col-sm-4 col-md-3 filter">
+<h3>FILTERS</h3>
+</div>
 
-<div class="col-sm-8 col-md-9 collection">
+<div class="col-xs-12 col-sm-8 col-md-9 collection">
 <div class="container-fluid">
 <div class="row gallery">
 
@@ -127,9 +123,40 @@
 
 </div>
 </div>
+
+
+
+
+
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" style="border-radius: 0 !important">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#"style="border-radius: 0 !important">Next</a>
+    </li>
+  </ul>
+</nav>
+<br>
+
+
+
+
+
+
+
 </div>
 </div>
 </div>
+
+
+
+
 
 
 
@@ -178,13 +205,6 @@ left: 50%;
 transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
 }
-.filter{
-background-color: #f0f0f0;
-}
-.filtermobile{
-background-color: #f0f0f0;
-height: 200px;
-}
 </style>
 
 
@@ -222,21 +242,23 @@ height: 200px;
 <div class="container-fluid">
 <div class="row justify-content-between">
 
-<div class="col-xs-12 col-sm-4">
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 <h3>Artmoney Boutique</h3>
-<p>Address:<br>Kronprinsesse Sofies Vej 7, 2000 Frederiksberg, Denmark</p>
-<img src="picture/boutique.jpg" alt="boutique"><br><br>
 
-<p>Email: <a class="mail" href="mailto:artmoney@mail.dk">artmoney@mail.dk</a><br>
-Phone: +45 24251777</p>
+<img src="picture/boutique.jpg" alt="boutique">
+<div class="social_media"><div class="facebook"></div>
+<div class="instagram"></div>
+<div class="pinterest"></div></div>
 
-BIAM ApS – Artmoney<br>
-c/o Lars Kraemmer<br>
-CVR/VAT #: 28899165<br><br><br>
+<br><br><br>
+<p>Kronprinsesse Sofies Vej 7, 2000 Frederiksberg, Denmark</p>
+
+<a href="https://www.google.dk/maps/place/Kronprinsesse+Sofies+Vej+7,+2000+Frederiksberg/@55.6876051,12.5302905,17z/data=!3m1!4b1!4m5!3m4!1s0x465253b734e2f4e3:0x886a5c4a36c3015f!8m2!3d55.6876051!4d12.5324792"><div class="googlemap_bw"></div></a><br>
+
 </div>
 
 
-<div class="col-xs-12 col-sm-4">
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 <h3>Artmoney Newsletter</h3>
 
 <div class="input">
@@ -244,17 +266,36 @@ CVR/VAT #: 28899165<br><br><br>
 <br>
 <input type="text" class="form-control" style="border-radius: 0 !important" placeholder="E-MAIL" aria-label="Username" aria-describedby="basic-addon1">
 <br>
+
+
+
 <button type="button" class="btn btn-dark btn-lg btn-square">SUBSCRIBE</button>
 <br><br>
-<button type="button" class="btn btn-outline-dark btn-sm btn-square">UNSUBSCRIBE</button>
+<button type="button" class="btn btn-outline-dark btn-sm btn-square">UNSUBSCRIBE</button><br><br>
+
+<p>Email: <a class="mail" href="mailto:artmoney@mail.dk">artmoney@mail.dk</a><br>
+Phone: +45 24251777</p>
 
 </div>
 
+
+
+
+
+
+
 </div>
 
-<div class="col-xs-12 col-sm-2">
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 <h3>Terms and privacy</h3>
 <p>Please read the terms and privacy policy before using the services on this website.</p>
+<li><a>Terms of service</a></li>
+<li><a>Privacy policy</a></li>
+<a href="https://www.paypal.com/dk/home"><div class="paypal"></div></a><br>
+BIAM ApS – Artmoney<br>
+c/o Lars Kraemmer<br>
+CVR/VAT #: 28899165<br><br><br>
+
 </div>
 
 
@@ -263,7 +304,6 @@ CVR/VAT #: 28899165<br><br><br>
 
 </footer>
 </section>
-
 
 
 

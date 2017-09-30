@@ -38,7 +38,7 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-dark index" style="background-color: #000;">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #828282;">
 <!--  <a class="navbar-brand" href="#">Navbar</a>-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-radius: 0 !important">
     <span class="navbar-toggler-icon"></span>
@@ -46,10 +46,8 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-
-
-    <li class="nav-item">
-        <a class="nav-link" href="index.html">HOME </a>
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
       </li>
 
       <li class="nav-item">
@@ -86,127 +84,80 @@
 
     <a href="account.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">LOG IN</a>
 
-
 </div>
 </nav>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="overlay">
-<div id="title"><p>Alternative currency made of original art</p>
-    <div class="container-fluid">
-    <div class="row justify-content-end moto">
-    <div class="col-xs-8 col-sm-8 col-mg-8 col-lg-8 needcash">
-    <img src="picture/Need_Cash-01.svg" alt="needcash">
-    </div>
-    </div>
-    </div>
-</div>
-
-
-    <video class="visible-desktop" id="hero-vid"  autoplay loop>
-        <source type="video/mp4" src="video/Brush.mp4">
-    </video>
-
-    <img id="hero-pic" class="hidden-desktop" src="video/video_poster.jpg" alt="poster">
-</div>
-
-
-
-
-<div id="content">
-
-<h2>WHO? WHERE? HOW?</h2>
+<p class="currency">Alternative currency made of original art</p>
 
 
 
 
 <div class="container-fluid">
-<div class="row justify-content-center">
-<div class="col-xs-12 col-lg-10">
+<div class="row align-items-center justify-content-center">
 
-<div id="icon"></div>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 picture">
+<img src="picture/picture_Lars_01.jpg" alt="Model">
 
-<div class="info_box">
-<div class="table person_data">
-
-<div class="text">
-<h3 class="data_text"></h3>
-</div>
-</div>
-</div>
-<br><br>
-
-
-<p>Welcome to a world of imagination and real human relations through creativity! The basic idea of artmoney is, that artists produce a hand-made currency at a fixed value that can be spend at regular shops.</p>
+<div class="social_media"><div class="facebook"></div>
+<div class="instagram"></div>
+<div class="pinterest"></div></div>
 
 
 </div>
-</div>
-</div>
+
+
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 picture_description">
+
+<h3>Model back view</h3>
+<p>Serial no.: Lars Kraemmer-2015-162</p>
+
+
+<a href="account.html" class="btn btn-outline-dark btn-sm btn-square" role="button" aria-pressed="true">by Lars Christian Kræmmer</a><br><br>
+
+<a href="account.html" class="btn btn-outline-dark btn-sm btn-square" role="button" aria-pressed="true">owned by Lars Christian Kræmmer</a><br><br>
+
+<p>Style: Figurative
+Material: Paper</p>
+<p>I draw from live model. <br>Apply the water colour first and draw lines of charcoal into the wet paint.</p>
+
+<p>Price: 200,00 DKK<br>
+Shipping fee: 0,00 DKK</p>
+
+
+<button type="button" class="btn btn-dark btn-lg btn-square">ADD TO CART</button><br>
 
 
 
-
-
-
-
-
-<div class="container-fluid">
-<div class="row justify-content-center">
-<div class="col-lg-8">
-<div class="videocontainer">
-<video width="100%" height="100%" controls id="radissonsvideo" >
-<source src="video/Lars.mp4">
-Your borwser does not support the video tag.
-</video>
-
-
-<div id="endcredits">
-<div id="endcreditsbutton">
-<a href="signup.html" class="btn btn-outline-light btn-lg btn-square">SIGN UP</a>
-</div>
-
-</div>
-</div>
 </div>
 </div>
 </div>
 
 
-<div class="container-fluid">
-<div class="row justify-content-center">
 
-<div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="signup.html"><img src="picture/Icon_Sell_Artmoney-01.svg" alt="icon">
-<h5>SELL ARTMONEY</h5></a>
-</div>
 
-<div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="collection.html"><img src="picture/Icon_Buy_Artmoney-01.svg" alt="icon">
-<h5>BUY ARTMONEY</h5></a>
-</div>
 
-<div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="partners.html"><img src="picture/Icon_Use_Artmoney-01.svg" alt="icon">
-<h5>USE ARTMONEY</h5></a>
-</div>
 
-</div>
-</div>
 
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <section id="address">
@@ -286,16 +237,10 @@ CVR/VAT #: 28899165<br><br><br>
 
 
 
+    <script src="collection.js"></script>
 
-
-
-
-
-    <!-- Artists Partners Collectors Scripts -->
-      <!-- Other jquery -->
+    <!-- Other jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <script src="ArtistsPartnersCollectors.js"></script>
 
 
 
@@ -327,51 +272,6 @@ CVR/VAT #: 28899165<br><br><br>
 
         }())
     </script>
-
-
-<!-- Plugin Parallax -->
-<script>
-$(document).ready(function () {
-    $(window).on('load scroll', function () {
-        var scrolled = $(this).scrollTop();
-        $('#title').css({
-            'transform': 'translate3d(0, ' + -(scrolled * 0.2) + 'px, 0)', // parallax (20% scroll rate)
-            'opacity': 1 - scrolled / 400 // fade out at 400px from top
-        });
-    });
-});
-</script>
-
-
-
-
-<!-- Plugin JavaScript Video Call to action -->
-    <script src="js/popcorn-complete.js"></script>
-
-    <script>
-    var videoid = document.querySelector("#radissonsvideo");
-    var popcornvideo = Popcorn(videoid);
-    // vis CTA når video er slut
-
-    videoid.addEventListener("ended", function(e){
-    $("#endcredits").show();
-    })
-
-    popcornvideo.footnote({
-    start:2,
-    end:6,
-    text:"Popcorn video!",
-    target: "annotation"
-    });
-    //    popcornvideo.play();
-    </script>
-
-
-
-
-
-
-
 
 
 
