@@ -70,39 +70,19 @@
         <a class="nav-link" href="about.html">ABOUT </a>
       </li>
 
-         <li class="nav-item">
-        <a class="nav-link" href="about.html">FAQ </a>
+        <li class="nav-item">
+        <a class="nav-link" href="faq.html">FAQ </a>
       </li>
 
+</ul>
 
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFILE</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #555; border-radius: 0 !important">
-        <a class="dropdown-item" href="#">ADD ARTMONEY</a>
-        <a class="dropdown-item" href="#">ADD EVENT</a>
-        <a class="dropdown-item" href="#">SELLING HISTORY</a>
-        <a class="dropdown-item" href="#">MESSAGES</a>
-        </div>
-        </li>
-    </ul>
-
-
-    <form class="form-inline my-2 my-lg-0">
+<form class="form-inline my-2 my-lg-0">
     <input class="form-control mr-sm-2" type="text" style="border-radius: 0 !important" placeholder="SEARCH" aria-label="Search">
     </form>
 
+    <a href="signup.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">SIGN UP</a>
 
-    <a href="index.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">LOG OUT</a>
-
-
-
-
-
-
-
-
-
-
+    <a href="login.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">LOG IN</a>
 
 </div>
 </nav>
@@ -112,64 +92,26 @@
 
 
 
+<!--<div class="d-sm-none filtermobile"></div>-->
 
 
-
-
-<div class="container-fluid">
-<div class="row justify-content-between">
-
-<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 filter">
 
 <div class="container-fluid">
 <div class="row">
 
-<div class="col-xs-6 col-sm-8 col-md-6">
-<img class="image_account" src="picture/My_Account_Lars.jpg" alt="Lars">
-<div id="evaluation"></div>
+<div class="col-xs-12 col-sm-4 col-md-3 filter">
+<h3>FILTERS</h3>
+<h3>
+Artist<br>
+Country<br>
+Style<br>
+Material
+</h3>
 </div>
 
-<div class="col-sm-12 col-md-6 text_account">
-<h4>Lars Christian Kræmmer</h4>
-<p>Frederiksberg<br>
-Denmark<br>
-Tel: +4524251777<br></p>
-
-<a href="http://kraemmer.dk/" class="btn btn-outline-dark btn-sm btn-square" role="button" aria-pressed="true">WEBSITE</a>
-
-</div>
-</div>
-</div>
-
-<br>
-
+<div class="col-xs-12 col-sm-8 col-md-9 collection">
 <div class="container-fluid">
-<div class="row">
-
-<div class="col-sm-12 description_account">
-
-<p>
-When I invented Artmoney in December, 1997, I had no idea that it would evolve into a global alternative currency. I had an idea that with Artmoney I could skip the "sales level" and buy my products directly with art. So I imagined a life as a "free artist."<br><br>
-
-I hope that Artmoney, as it has evolved today, make artists around the world able to create a greater financial freedom for themselves, and at the same time put them in touch with like-minded people from different cultures through the wide spread network. Perhaps Artmoney can make the world a bit more human over time?<br><br>
-
-Artmoney has given me the opportunity to stay involved with drawing and painting and writing and seeking inspiration. It has lead to lots of artworks, installations, happenings, travel, meetings with interesting people and amazing experiences. Art is my excuse to live life while I am alive.
-</p>
-
-</div>
-</div>
-</div>
-
-</div>
-
-
-
-
-
-
-<div class="col-xs-12 col-sm-6 col-md-7 collection">
-<div class="container-fluid">
-<div class="row gallery">
+<div class="row no-gutters gallery">
 
 <template id="collection_template">
 <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
@@ -190,6 +132,9 @@ Artmoney has given me the opportunity to stay involved with drawing and painting
 
 
 
+
+
+
 <nav aria-label="Page navigation example">
   <ul class="pagination">
     <li class="page-item disabled">
@@ -204,6 +149,12 @@ Artmoney has given me the opportunity to stay involved with drawing and painting
   </ul>
 </nav>
 <br>
+
+
+
+
+
+
 
 </div>
 </div>
@@ -232,8 +183,6 @@ padding-right: -15px;
 position: relative;
 margin-top: 15px;
 margin-bottom: 15px;
-padding-top: 15px;
-padding-bottom: 15px;
 }
 .artimage {
 display: block;
@@ -261,14 +210,6 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 -ms-transform: translate(-50%, -50%);
-}
-
-.picture:hover img {
-transform: scale(1.04);
-}
-.picture img {
-transform: scale(1);
-transition: .4s;
 }
 </style>
 
@@ -381,8 +322,6 @@ CVR/VAT #: 28899165<br><br><br>
     <!-- Other jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <script src="star.js"></script>
-
 
 
 
@@ -414,7 +353,19 @@ CVR/VAT #: 28899165<br><br><br>
         }())
     </script>
 
+<script src="mixitup.min.js"></script>
 
+
+<!-- Filter script -->
+
+<script>
+let containerEl = document.querySelector('.gallery'); // jeres emne-container
+ let mixer = mixitup(containerEl, {
+            controls: {
+                toggleLogic: 'and'
+            }
+       });
+</script>
 
 </body>
 </html>

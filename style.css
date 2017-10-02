@@ -471,7 +471,26 @@ color: #000;
 
 .filter{
 background-color: #f0f0f0;
+padding: 20px;
+color: #000;
 }
+
+
+.filter_part{
+padding: 15px;
+}
+
+.button_filter{
+background-color: white;
+    border: solid .5pt;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0.5em;
+}
+
 
 .picture_description{
 margin-top: 30px;
@@ -489,9 +508,13 @@ color: #000;
 }
 
 
-.picture{
+
+
+.art_picture{
 padding-top: 50px;
 padding-bottom: 70px;
+border-style: solid;
+border: 1px;
 }
 
 
@@ -545,6 +568,7 @@ position: absolute;
 width: 100%!important;
 height: 100%!important;
 }
+
 
 
 
