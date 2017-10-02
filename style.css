@@ -160,9 +160,16 @@ color: #ccc !important;
     text-align: center;
     background: rgba(0, 0, 0, 0.8);}
 
+
+
+#endcredits p{
+padding: 15px;
+}
+
+
 #endcreditsbutton{
     position: absolute;
-    top: 40%;
+    top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 15px;}
@@ -197,7 +204,7 @@ h1, h2, h3, h4 {
     margin: 1.414em 0 0.5em;
     font-weight: inherit;
     line-height: 1.2;
-    font-family: roboto thin;
+    font-family: roboto;
 }
 
 h1 {
@@ -274,7 +281,7 @@ width:100%;
 
 #title h1 {
 background-color:rgba(0,0,0,.2);
-font-family:"roboto thin";
+font-family:"roboto";
 font-size:4em;
 padding:.5em .725em;
 }
@@ -282,7 +289,7 @@ padding:.5em .725em;
 
 #title p {
 background-color:rgba(0,0,0,0.9);
-font-family:"roboto thin";
+font-family:"roboto";
 font-size:1em;
 text-align: right;
 padding-top: 0.2em;
@@ -296,7 +303,7 @@ letter-spacing: 1px;
 
 .currency {
 background-color:rgba(0,0,0,0.9);
-font-family:"roboto thin";
+font-family:"roboto";
 font-size:1em;
 text-align:right;
 padding-top: 0.2em;
@@ -525,6 +532,22 @@ margin-right: -15px;
 padding: 15px;
 
 }
+
+.hs-responsive-embed-youtube {
+position: relative;
+padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+padding-top: 25px;
+}
+
+
+.hs-responsive-embed-youtube iframe {
+position: absolute;
+width: 100%!important;
+height: 100%!important;
+}
+
+
+
 
 
 
