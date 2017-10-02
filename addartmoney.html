@@ -98,171 +98,46 @@
 </nav>
 
 
+
 <p class="currency">Alternative currency made of original art</p>
 
 
 
 
-
-
-
 <div class="container-fluid">
-<div class="row justify-content-between">
+<div class="row justify-content-center">
 
-<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 filter">
 
-<div class="container-fluid">
-<div class="row">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 picture_description">
 
-<div class="col-xs-6 col-sm-8 col-md-6">
-<img class="image_account" src="picture/My_Account_Lars.jpg" alt="Lars">
-<div id="evaluation"></div>
-</div>
+<form action="/action_page.php" class="button_filter">
+<input type="file" name="pic" accept="image/*" >
+</form><br>
 
-<div class="col-sm-12 col-md-6 text_account">
-<h4>Lars Christian Kræmmer</h4>
-<p>Frederiksberg<br>
-Denmark<br>
-Tel: +4524251777<br></p>
 
-<a href="http://kraemmer.dk/" class="btn btn-outline-dark btn-sm btn-square" role="button" aria-pressed="true">WEBSITE</a>
 
-</div>
-</div>
-</div>
 
+<div class="input">
+<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="TITLE" aria-label="Username" aria-describedby="basic-addon1">
+<br>
+<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="STYLE" aria-label="Username" aria-describedby="basic-addon1">
+<br>
+<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="MATERIAL" aria-label="Username" aria-describedby="basic-addon1">
+<br>
+<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="SHIPPING FEE" aria-label="Username" aria-describedby="basic-addon1">
 <br>
 
-<div class="container-fluid">
-<div class="row">
 
-<div class="col-sm-12 description_account">
 
-<p>
-When I invented Artmoney in December, 1997, I had no idea that it would evolve into a global alternative currency. I had an idea that with Artmoney I could skip the "sales level" and buy my products directly with art. So I imagined a life as a "free artist."<br><br>
+<a href="account.html" class="btn btn-dark btn-lg btn-square" role="button" aria-pressed="true" style="color: #fff !important">SUBMIT</a>
 
-I hope that Artmoney, as it has evolved today, make artists around the world able to create a greater financial freedom for themselves, and at the same time put them in touch with like-minded people from different cultures through the wide spread network. Perhaps Artmoney can make the world a bit more human over time?<br><br>
 
-Artmoney has given me the opportunity to stay involved with drawing and painting and writing and seeking inspiration. It has lead to lots of artworks, installations, happenings, travel, meetings with interesting people and amazing experiences. Art is my excuse to live life while I am alive.
-</p>
+
+</div>
 
 </div>
 </div>
 </div>
-
-</div>
-
-
-
-
-
-
-<div class="col-xs-12 col-sm-6 col-md-7 collection">
-<div class="container-fluid">
-<div class="row gallery">
-
-<template id="collection_template">
-<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
-<a class="data_collectionlink" href="">
-<img class="img-responsive data_art artimage" src="" alt="Artmoney">
-<div class="overlay">
-    <div class="text">
-    <h4 class="data_arttitle">DATA_ARTTITLE</h4>
-    <p class="data_artist">DATA_ARTIST</p>
-    </div>
-  </div>
-</a>
-</div>
-</template>
-
-</div>
-</div>
-
-
-
-<nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" style="border-radius: 0 !important">Previous</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#"style="border-radius: 0 !important">Next</a>
-    </li>
-  </ul>
-</nav>
-<br>
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<style>
-.row{
-margin-left: -15px;
-margin-right: -15px;
-padding-left: -15px;
-padding-right: -15px;
-}
-.picture {
-position: relative;
-margin-top: 15px;
-margin-bottom: 15px;
-padding-top: 15px;
-padding-bottom: 15px;
-}
-.artimage {
-display: block;
-height: auto;
-}
-.overlay {
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-height: 100%;
-width: 100%;
-opacity: 0;
-transition: .5s ease;
-background-color: #000;
-}
-.picture:hover .overlay {
-opacity: 0.7;
-}
-.text {
-color: white;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-}
-
-.picture:hover img {
-transform: scale(1.04);
-}
-.picture img {
-transform: scale(1);
-transition: .4s;
-}
-</style>
-
-
 
 
 
@@ -366,12 +241,11 @@ CVR/VAT #: 28899165<br><br><br>
 
 
 
+
     <script src="collection.js"></script>
 
     <!-- Other jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <script src="star.js"></script>
 
 
 
