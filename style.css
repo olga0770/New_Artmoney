@@ -330,8 +330,15 @@ background-image: url(picture/campaign-01.svg);
 position: relative;
 z-index: 1;
 left: 100%;
-
 margin-left: -370px;
+}
+
+
+.campaign_logo{
+width: 400px;
+height: 100px;
+background-image: url(picture/campaign-logo-01.svg);
+position: relative;
 }
 
 
@@ -573,8 +580,18 @@ margin-top: 0px;
 }
 
 
-.picture_description p, h3{
+.picture_description a, p, h3, li{
 color: #000;
+}
+
+
+
+.about_description a, p, h3{
+color: #000;
+}
+
+.about_description h4{
+margin-top: 0px;
 }
 
 
@@ -637,6 +654,11 @@ padding-top: 25px;
 position: absolute;
 width: 100%!important;
 height: 100%!important;
+}
+
+
+.text_home p{
+color: #fff;
 }
 
 
