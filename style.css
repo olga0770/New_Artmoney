@@ -128,19 +128,6 @@ color: #ccc !important;
 
 
 
-.arrow_down {
-    width: 100px;
-    height: 50px;
-    background-image: url(picture/Arrow_Down.svg);
-    position: absolute;
-    left: 50%;
-    margin-left: -50px;
-    margin-top: -15px;
-    z-index: 1;
-}
-
-
-
 
 /* call to action video */
 
@@ -164,6 +151,7 @@ color: #ccc !important;
 
 #endcredits p{
 padding: 15px;
+color: #fff;
 }
 
 
@@ -268,7 +256,7 @@ width:100%;
 
 
 
-/* Content Styles */
+/* Content Styles text on index page */
 
 #title {
 backface-visibility:hidden;
@@ -277,13 +265,6 @@ text-align:right;
 perspective:1000;
 position:fixed;
 width:100%;
-}
-
-#title h1 {
-background-color:rgba(0,0,0,.2);
-font-family:"roboto";
-font-size:4em;
-padding:.5em .725em;
 }
 
 
@@ -301,15 +282,18 @@ color:rgba(255,255,255,1);
 letter-spacing: 1px;
 }
 
-.currency {
-background-color: #000;
-text-align:right;
+
+.currency{
+background-color:rgba(0,0,0,0.9);
+font-family:"roboto";
+font-size:1em;
+text-align: right;
 padding-top: 0.2em;
 padding-bottom: 0.2em;
 margin-bottom: 0em;
 padding-left: 15px;
 padding-right: 15px;
-color: #fff;
+color:rgba(255,255,255,1);
 letter-spacing: 1px;
 }
 
@@ -322,7 +306,6 @@ padding-right: 1.6em;
 margin-top: 3em;
 }
 
-
 .campaign{
 width: 400px;
 height: 100px;
@@ -332,7 +315,6 @@ z-index: 1;
 left: 100%;
 margin-left: -370px;
 }
-
 
 .campaign_logo{
 width: 400px;
@@ -357,11 +339,8 @@ margin-bottom:2em;
 text-align: center;
 }
 
-
-
-.icon{
-text-align: center;
-margin-bottom: 30px;
+#content h3 {
+color: #fff;
 }
 
 #content a, a:visited {
@@ -371,6 +350,20 @@ color: #fff !important;
 #content a:hover {
 color: #999 !important;
 }
+
+
+.icon{
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
 
 
 footer{
@@ -403,22 +396,13 @@ color:#fff;
 font-size: 20px;
 }
 
-.after_footer a {
+.after_footer p, a {
 color:#fff;
 }
 
-
-
-
-.pagination a:hover {
-color: #999 !important;
+.after_footer a:hover, a:visited {
+color:#ccc;
 }
-
-.pagination a, a:visited {
-color: #ccc !important;
-}
-
-
 
 
 .paypal {
@@ -516,6 +500,18 @@ position: absolute;
 
 
 
+.pagination a:hover {
+color: #999 !important;
+}
+
+.pagination a, a:visited {
+color: #ccc !important;
+}
+
+
+
+
+
 
 .image_account{
 margin-top: 30px;
@@ -526,7 +522,6 @@ margin-bottom: 20px;
 color: #000;
 }
 
-
 .text_account a, a:visited {
 color: #000 !important;
 }
@@ -535,14 +530,16 @@ color: #000 !important;
 color: #999 !important;
 }
 
+.description_account{
+color: #000;
+}
+
 #evaluation{
 margin-bottom: 0px;
 }
 
 
-.description_account{
-color: #000;
-}
+
 
 
 
@@ -658,6 +655,32 @@ height: 100%!important;
 
 
 .text_home p{
+color: #fff;
+}
+
+
+.data_text {
+padding: 0px;
+margin: 5px;
+}
+
+
+.text_signup{
+text-align: center;
+}
+
+.signup{
+color: #000;
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.data_artist{
+color: #fff;
+}
+
+.data_date{
 color: #fff;
 }
 

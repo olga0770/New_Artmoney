@@ -30,7 +30,7 @@ function clickedStar(event){
 		// for all star clicked index <= set fill to selected
 
 		if(i <=clickedIndex){
-			stars[i].setAttribute("fill", "green");
+			stars[i].setAttribute("fill", "#780a23");
 		}//Else set fill to default
 		else{
 			stars[i].setAttribute("fill", "white");
