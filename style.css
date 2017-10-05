@@ -314,6 +314,7 @@ position: relative;
 z-index: 1;
 left: 100%;
 margin-left: -370px;
+margin-top: -20px;
 }
 
 .campaign_logo{
