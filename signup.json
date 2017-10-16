@@ -2,13 +2,13 @@
     {
         "id":"artists",
 
-        "text":"ARTISTS JOIN US BECAUSE they can make their own money by hand, sell it from your profile and spend it in shops. They can also expand their network and make new friendships."
+        "text":"ARTISTS JOIN ARTMONEY BECAUSE they can make their own money by hand, sell it from your profile and spend it in shops. They can also expand their network and make new friendships."
         },
 
     {
         "id":"partners",
 
-        "text":"SHOPS JOIN US BECAUSE they can sell your goods and services to people with little money. They can also advertise their shops world wide in a creative and positive way."
+        "text":"SHOPS JOIN ARTMONEY BECAUSE they can sell your goods and services to people with little money. They can also advertise their shops world wide in a creative and positive way."
         },
 
 
@@ -16,7 +16,7 @@
     {
         "id":"collectors",
 
-        "text":"Collectors JOIN US BECAUSE they can buy artmoney as inexpensive, original art, share their collection with the world and make a statement about TRUE VALUE in a world ruled by money."
+        "text":"COLLECTORS JOIN ARTMONEY BECAUSE they can buy artmoney as inexpensive, original art, share their collection with the world and make a statement about TRUE VALUE in a world ruled by money."
         }
 
 ]
