@@ -80,7 +80,7 @@
     <input class="form-control mr-sm-2" type="text" style="border-radius: 0 !important" placeholder="SEARCH" aria-label="Search">
     </form>
 
-
+    <a href="login.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #000;">LOG IN</a>
 
     <a href="signup.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #780a23;">JOIN US</a>
 
@@ -90,42 +90,59 @@
 
 <p class="currency">Alternative currency made of original art</p>
 
-<ol class="breadcrumb" style="background-color: #f0f0f0; border-radius: 0 !important">
-  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-  <li class="breadcrumb-item active">Login</li>
-</ol>
 
-<h3 class="signup">LOG IN</h3>
 
 
 <div class="container-fluid">
-<div class="row justify-content-center">
+<div class="row align-items-center justify-content-center masterpiece">
+
+<!-- Here come Artmoney picture and all info about it -->
+
+
+
+
+<!--
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 art_picture data_art">
+<img src="picture/picture_Lars_01.jpg" alt="Model">
+
+<div class="social_media"><div class="facebook"></div>
+<div class="instagram"></div>
+<div class="pinterest"></div></div>
+</div>
 
 
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 picture_description">
 
-<div class="input">
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="USERNAME OR E-MAIL" aria-label="Username" aria-describedby="basic-addon1">
-<br>
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="PASSWORD" aria-label="Username" aria-describedby="basic-addon1">
-<br>
+<h3 class="data_arttitle">Model back view</h3>
 
- <p>
-    <label for="rememberme">
-        <input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember me</label>
-</p>
+<dt class="serial_number">Serial no.: Lars Kraemmer-2015-162</dt>
 
-<a href=""><p>Forgot password?</p></a>
+<h4 class="user_artist">Lars Christian Kræmmer</h4>
+
+<dt class="owned_by">Owned by: Lars Christian Kræmmer</dt><br>
+
+<dt class="style">Style: Figurative</dt>
+<dt class="material">Material: Paper</dt><br>
+<p class="artmoney_descriprion">I draw from live model. Apply the water colour first and draw lines of charcoal into the wet paint.</p>
+
+<dt class="price">Price: 200,00 DKK</dt>
+<dt class="shipping_fee">Shipping fee: 0,00 DKK</dt><br>
+
+<button type="button" class="btn btn-dark btn-lg btn-square" style="background-color: #000;">ADD TO CART</button><br>
+
+</div>
+-->
 
 
-<a href="account.html" class="btn btn-dark btn-lg btn-square" role="button" aria-pressed="true" style="background-color: #000; color: #fff !important">LOG IN</a>
+
+
+
 
 
 
 </div>
 </div>
-</div>
-</div>
+
 
 
 
@@ -230,12 +247,79 @@ CVR/VAT #: 28899165</p>
 
 
 
+<template class="picture_template">
+
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 art_picture">
+<img class="data_art" src="" alt="Model">
+</div>
 
 
-    <script src="collection.js"></script>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 picture_description">
 
-    <!-- Other jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<h3 class="data_title"></h3>
+
+<dl class="row">
+<dt>Serial no: </dt>
+<dd class="serial_number">Serial no: </dd>
+</dl>
+
+<h4 class="user_artist"></h4>
+
+<dl class="row">
+<dt>Owned by: </dt>
+<dd class="owned_by"></dd><br>
+</dl>
+
+<dl class="row">
+<dt>Style: </dt>
+<dd class="style"></dd>
+</dl>
+
+<dl class="row">
+<dt>Material: </dt>
+<dd class="material"></dd>
+</dl>
+
+<br>
+
+<p class="artmoney_descriprion"></p>
+
+<dl class="row">
+<dt>Price: </dt>
+<dd class="price"></dd>
+</dl>
+
+<dl class="row">
+<dt>Shipping fee: </dt>
+<dd class="shipping_fee"></dd>
+</dl>
+
+<br>
+
+<button type="button" class="btn btn-dark btn-lg btn-square" style="background-color: #000;">ADD TO CART</button>
+
+<div class="black_line"></div>
+
+<h4>By sharing this picture you support our artists!</h4>
+
+<div class="social_media">
+<div class="facebook"></div>
+<div class="instagram"></div>
+<div class="pinterest"></div>
+</div><br>
+
+</div>
+
+</template>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -243,7 +327,7 @@ CVR/VAT #: 28899165</p>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-<!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
@@ -266,6 +350,60 @@ CVR/VAT #: 28899165</p>
             }
 
         }())
+    </script>
+
+
+    <script>
+        let url = new URL(window.location.href);
+        let searchParams = new URLSearchParams(url.search);
+        let id = searchParams.get("id");
+        let apiURL = "http://www.deleklubben.dk/artmoney/wordpress/wp-json/wp/v2/pictures/" + id;
+        let post; //tom var
+
+        getPost();
+
+        async function getPost() {
+            let result = await fetch(apiURL);
+            post = await result.json();
+            console.log(post);
+            showPost();
+        }
+
+
+        function showPost() {
+            let template = document.querySelector(".picture_template");
+            let display = document.querySelector(".masterpiece");
+            let clone = template.content.cloneNode(true);
+
+clone.querySelector(".data_art").src = post.acf.artmoney_image;
+
+clone.querySelector(".data_title").textContent = post.title.rendered;
+
+clone.querySelector(".serial_number").textContent = post.acf.serial_number;
+
+clone.querySelector(".user_artist").textContent = post.acf.artist.display_name;
+
+clone.querySelector(".owned_by").textContent = post.acf.owned_by.display_name;
+
+clone.querySelector(".style").textContent = post.acf.style;
+
+clone.querySelector(".material").textContent = post.acf.material;
+
+clone.querySelector(".artmoney_descriprion").textContent = post.acf.artmoney_descriprion;
+
+clone.querySelector(".price").textContent = post.acf.price;
+
+clone.querySelector(".shipping_fee").textContent = post.acf.shipping_fee;
+
+//            clone.querySelector(".fuglenavn").textContent = post.acf.fuglens_navn;
+//            clone.querySelector(".observationsdato").textContent = post.acf.observationsdato;
+//            clone.querySelector(".observationcontent").innerHTML = post.content.rendered;
+//
+            display.appendChild(clone);
+
+
+        }
+
     </script>
 
 

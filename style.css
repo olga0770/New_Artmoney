@@ -124,6 +124,9 @@ color: #ccc !important;
   border-radius: 0;
 }
 
+.breadcrumb-item a{
+color: #ccc;
+}
 
 
 
@@ -462,26 +465,26 @@ top: 0px;
 }
 
 .facebook{
-width: 25px;
-height: 22px;
+width: 50px;
+height: 44px;
 background-image: url(picture/icon_Facebook-01.svg);
 position: absolute;
 }
 
 .instagram{
-width: 25px;
-height: 22px;
+width: 50px;
+height: 44px;
 background-image: url(picture/icon_Instagram-01.svg);
 position: absolute;
-left: 25px;
+left: 75px;
 }
 
 .pinterest{
-width: 25px;
-height: 22px;
+width: 50px;
+height: 44px;
 background-image: url(picture/icon_Pinterest-01.svg);
 position: absolute;
-left: 50px;
+left: 150px;
 }
 
 
@@ -569,7 +572,7 @@ margin-bottom: 0px;
 
 
 .filter{
-background-color: #f0f0f0;
+background-color: #ffffff;
 padding: 20px;
 color: #000;
 }
@@ -602,7 +605,7 @@ margin-top: 0px;
 }
 
 
-.picture_description a, p, h3, li{
+.picture_description a, p, h3, li, dt, dd, h4{
 color: #000;
 }
 
@@ -707,6 +710,23 @@ color: #fff;
 
 .data_date{
 color: #fff;
+}
+
+
+dl dt{
+margin-left: 15px;
+margin-right: 15px;
+}
+
+.data_arttitle{
+color: #fff;
+}
+
+.black_line{
+height: 1px;
+    background-color:#000;
+    margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 
