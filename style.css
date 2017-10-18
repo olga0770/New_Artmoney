@@ -629,8 +629,27 @@ border-style: solid;
 border: 1px;
 }
 
+.artists_about{
+color: #000;
+margin-left: -100px;
+}
+
+.artists_about h4{
+margin-top: 0px;
+padding-top: 0px;
+margin-bottom: 5px;
+}
+
 
 .partner_logo{
+width: 40%;
+border: 1px solid #ccc;
+padding: 10px;
+margin-bottom: 15px;
+}
+
+
+.profile_artists_picture{
 width: 40%;
 border: 1px solid #ccc;
 padding: 10px;
