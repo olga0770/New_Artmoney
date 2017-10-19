@@ -51,11 +51,11 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="collection.html">GALLERY </a>
+        <a class="nav-link" href="collection_wp.html">GALLERY </a>
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="artists.html">ARTISTS </a>
+        <a class="nav-link" href="artists_wp.html">ARTISTS </a>
       </li>
 
         <li class="nav-item">
@@ -70,35 +70,25 @@
         <a class="nav-link" href="about.html">ABOUT </a>
       </li>
 
-         <li class="nav-item">
-        <a class="nav-link" href="about.html">FAQ </a>
+        <li class="nav-item">
+        <a class="nav-link" href="faq.html">FAQ </a>
       </li>
 
+</ul>
 
-        <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROFILE</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #555; border-radius: 0 !important">
-        <a class="dropdown-item" href="addartmoney.html">ADD ARTMONEY</a>
-        <a class="dropdown-item" href="#">ADD EVENT</a>
-        <a class="dropdown-item" href="#">SELLING HISTORY</a>
-        <a class="dropdown-item" href="#">MESSAGES</a>
-        </div>
-        </li>
-    </ul>
-
-
-    <form class="form-inline my-2 my-lg-0">
+<form class="form-inline my-2 my-lg-0">
     <input class="form-control mr-sm-2" type="text" style="border-radius: 0 !important" placeholder="SEARCH" aria-label="Search">
     </form>
 
+    <a href="login.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #000;">LOG IN</a>
 
-    <a href="index.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true">LOG OUT</a>
+    <a href="signup.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #780a23;">JOIN US</a>
 
 </div>
 </nav>
 
-
 <p class="currency">Alternative currency made of original art</p>
+
 
 
 <ol class="breadcrumb" style="background-color: #f0f0f0; border-radius: 0 !important">
@@ -117,7 +107,7 @@
 <div class="container-fluid">
 <div class="row artist_account">
 
-<!--Here comes atrists profile picture and info-->
+<!--Here comes artist's profile-->
 
 </div>
 </div>
@@ -129,28 +119,10 @@
 <div class="container-fluid">
 <div class="row gallery">
 
-<!--Here comes atrists pictures-->
-
-<!--
-<template id="collection_template">
-<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
-<a class="data_collectionlink" href="">
-<img class="img-responsive data_art artimage" src="" alt="Artmoney">
-<div class="overlay">
-    <div class="text">
-    <h4 class="data_arttitle">DATA_ARTTITLE</h4>
-    <p class="data_artist">DATA_ARTIST</p>
-    </div>
-  </div>
-</a>
-</div>
-</template>
--->
+<!--Here comes atrist's pictures-->
 
 </div>
 </div>
-
-
 
 <nav aria-label="Page navigation example">
   <ul class="pagination">
@@ -169,19 +141,8 @@
 
 </div>
 
-
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -235,31 +196,6 @@ transform: scale(1);
 transition: .4s;
 }
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -341,11 +277,7 @@ CVR/VAT #: 28899165</p>
 
 
 
-
-
-
-
-<!--Template artists info start-->
+<!--Template artist's profile start-->
 <template class="temp_account">
 
 <div class="container-fluid">
@@ -362,6 +294,8 @@ CVR/VAT #: 28899165</p>
 <h4 class="data_artist_name"></h4>
 
 <p class="data_artist_country"></p>
+<p class="data_artist_telephone"></p>
+<p class="data_artist_email"></p>
 
 <a href="" class="btn btn-outline-dark btn-sm btn-square artist_website" role="button" aria-pressed="true">WEBSITE</a><br><br>
 
@@ -384,11 +318,11 @@ CVR/VAT #: 28899165</p>
 
 </template>
 
-<!--Template artists info finish-->
+<!--Template artist's profile finish-->
 
 
 
-<!--Template pictures start-->
+<!--Template artist's pictures start-->
 <template id="collection_template">
 <div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
 <a class="data_collectionlink" href="">
@@ -402,20 +336,12 @@ CVR/VAT #: 28899165</p>
 </a>
 </div>
 </template>
-<!--Template pictures finish-->
+<!--Template artist's pictures finish-->
 
 
 
 
-
-
-
-
-
-
-<!--    <script src="collection.js"></script>-->
-
-    <!-- Other jquery -->
+    <!-- This particular jquery - for Evaluations-stars -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <script src="star.js"></script>
@@ -454,8 +380,8 @@ CVR/VAT #: 28899165</p>
 
 
 
-
-    <script>
+<!--Artist's profile-->
+<script>
         let url = new URL(window.location.href);
         let searchParams = new URLSearchParams(url.search);
         let id = searchParams.get("id");
@@ -471,7 +397,7 @@ CVR/VAT #: 28899165</p>
             showPost();
         }
 
-   //*Visning af ornitolog-profilen*/
+   //*Show artist's profile*/
 
 
         function showPost() {
@@ -481,35 +407,32 @@ CVR/VAT #: 28899165</p>
 
             clone.querySelector(".data_image_account").src = post.acf.profile_picture;
             clone.querySelector(".data_artist_name").textContent = post.name;
-
-             clone.querySelector(".data_artist_country").textContent = post.acf.country;
-
+            clone.querySelector(".data_artist_country").textContent = post.acf.country;
+            clone.querySelector(".data_artist_telephone").textContent = post.acf.telephone;
+//            clone.querySelector(".data_artist_email").href = post.acf.e-mail;
             clone.querySelector(".description_account").textContent = post.acf.about;
-
             clone.querySelector(".artist_website").href = post.url;
-
-
 
             display.appendChild(clone);
             }
 
 </script>
 
+<!--
+<p class="data_artist_telephone"></p>
+<p class="data_artist_e-mail"></p>
+-->
 
 
 
-
-
+<!--Artist's pictures-->
 <script>
 
-        let apiPicturesURL = "http://www.deleklubben.dk/artmoney/wordpress/wp-json/wp/v2/pictures/?author=" + id;
+    let apiPicturesURL = "http://www.deleklubben.dk/artmoney/wordpress/wp-json/wp/v2/pictures/?author=" + id;
+    let pictures = [];
 
-        let pictures = [];
-
-
-
-        getPictures();
-        // hent JSON og put data ind i Pictures
+    getPictures();
+        // take JSON and put data in Pictures
         async function getPictures() {
             if (pictures.length < 1) {
                 let result = await fetch(apiPicturesURL, {
@@ -520,7 +443,7 @@ CVR/VAT #: 28899165</p>
             }
         }
 
-        // viser brugerens billeder
+        // show user's pictures
         function showPictures() {
             let templatepicture = document.querySelector("#collection_template");
             let displaypictures = document.querySelector(".gallery");
@@ -533,19 +456,10 @@ CVR/VAT #: 28899165</p>
             clone.querySelector(".data_arttitle").textContent = pictures.title.rendered;
             clone.querySelector(".data_artist").textContent = pictures.acf.artist.display_name;
 
-
-
             displaypictures.appendChild(clone);
             });
         }
         </script>
-
-
-
-
-
-
-
 
 
 

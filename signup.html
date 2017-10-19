@@ -51,11 +51,11 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="collection.html">GALLERY </a>
+        <a class="nav-link" href="collection_wp.html">GALLERY </a>
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="artists.html">ARTISTS </a>
+        <a class="nav-link" href="artists_wp.html">ARTISTS </a>
       </li>
 
         <li class="nav-item">
@@ -82,44 +82,103 @@
 
     <a href="login.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #000;">LOG IN</a>
 
+    <a href="signup.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #780a23;">JOIN US</a>
 
 </div>
 </nav>
 
-
-
 <p class="currency">Alternative currency made of original art</p>
 
+<ol class="breadcrumb" style="background-color: #f0f0f0; border-radius: 0 !important">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item active">Join Us</li>
+</ol>
 
-<h3 class="signup">JOIN US!</h3>
+
+
+
 
 
 
 <div class="container-fluid">
 <div class="row justify-content-center">
 
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 picture_description">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-4 picture_description">
 
-<div class="input">
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="USERNAME" aria-label="Username" aria-describedby="basic-addon1">
-<br>
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="E-MAIL" aria-label="Username" aria-describedby="basic-addon1">
-<br>
+<h3 class="signup">JOIN US!</h3>
 
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="PASSWORD" aria-label="Username" aria-describedby="basic-addon1">
-<br>
 
-<a href="account.html" class="btn btn-dark btn-lg btn-square" role="button" aria-pressed="true" style="background-color: #000; color: #fff !important">CREATE ACCOUNT</a>
+
+
+<form class="form" name="registerform" id="registerform" action="http://www.deleklubben.dk/artmoney/wordpress/wp-login.php?action=register" action="" method="post" novalidate="novalidate">
+
+    <div class="form-group">
+    <label for="username" class="sr-only">USERNAME</label>
+    <input type="text" class="input form-control" style="border-radius: 0 !important" id="username" placeholder="USERNAME" name="log" id="username" aria-describedby="login_error">
+    </div>
+
+
+    <div class="form-group">
+    <label for="user_email" class="sr-only">EMAIL</label>
+    <input type="text" class="input form-control" style="border-radius: 0 !important" id="user_email" placeholder="E-MAIL" name="log" id="user_email" aria-describedby="login_error">
+    </div>
+
+    <div class="form-group">
+    <label for="psw" class="sr-only">PASSWORD</label>
+    <input type="password" class="input form-control" style="border-radius: 0 !important" id="psw" placeholder="PASSWORD" name="pwd" id="user_pass" aria-describedby="login_error">
+    </div>
+
+    <p id="reg_passmail">You will recieve an e-mail where you need to confirm your registration.</p>
+                <br class="clear" />
+                <input type="hidden" name="redirect_to" value="" />
+
+
+    <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark btn-lg btn-square" style="background-color: #000; color: #fff !important" value="CREATE ACCOUNT" />
+    <input type="hidden" name="redirect_to" value="http://www.deleklubben.dk/artmoney/wordpress/wp-admin/" />
+    <input type="hidden" name="testcookie" value="1" />
+
+</form>
+
+
+
+
+
+
+
 
 </div>
 </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+<div class="row justify-content-center">
+<div class="col-xs-10 col-sm-8">
+
+<div class="black_line2"></div>
+
+</div>
+</div>
 </div>
 
 
-<!-- Artists Shops Collectors Picture -->
 
-<h3 class="signup">Why do people join Artmoney?</h3>
+
+<!-- Artists Shops Collectors Picture start -->
+
+<h3 class="why_signup">Why do people join Artmoney?</h3>
 
 <div class="container-fluid">
 <div class="row justify-content-center">
@@ -146,7 +205,7 @@
 </div>
 </div>
 </div>
-<!-- Artists Shops Collectors Picture Finished -->
+<!-- Artists Shops Collectors Picture Finish -->
 
 
 

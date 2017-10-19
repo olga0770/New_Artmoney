@@ -51,11 +51,11 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="collection.html">GALLERY </a>
+        <a class="nav-link" href="collection_wp.html">GALLERY </a>
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="artists.html">ARTISTS </a>
+        <a class="nav-link" href="artists_wp.html">ARTISTS </a>
       </li>
 
         <li class="nav-item">
@@ -80,24 +80,65 @@
     <input class="form-control mr-sm-2" type="text" style="border-radius: 0 !important" placeholder="SEARCH" aria-label="Search">
     </form>
 
-
+    <a href="login.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #000;">LOG IN</a>
 
     <a href="signup.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #780a23;">JOIN US</a>
 
 </div>
 </nav>
 
-
 <p class="currency">Alternative currency made of original art</p>
+
 
 <ol class="breadcrumb" style="background-color: #f0f0f0; border-radius: 0 !important">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
   <li class="breadcrumb-item active">Login</li>
 </ol>
 
-<h3 class="signup">LOG IN</h3>
 
 
+
+
+
+<div class="container-fluid">
+<div class="row justify-content-center">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-4 picture_description">
+
+    <h3 class="signup">LOG IN</h3>
+
+
+    <form class="form" name="loginform" id="loginform" action="http://www.deleklubben.dk/artmoney/wordpress/wp-login.php" action="" method="post">
+
+    <div class="form-group">
+    <label for="Username" class="sr-only">UUSERNAME</label>
+    <input type="text" class="input form-control" style="border-radius: 0 !important" id="brugernavn" placeholder="USERNAME OR E-MAIL" name="log" id="user_login" aria-describedby="login_error">
+    </div>
+
+    <div class="form-group">
+    <label for="psw" class="sr-only">PASSWORD</label>
+    <input type="password" class="input form-control" style="border-radius: 0 !important" id="psw" placeholder="PASSWORD" name="pwd" id="user_pass" aria-describedby="login_error">
+    </div>
+
+
+    <p>
+    <label for="rememberme">
+        <input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember me</label>
+    </p>
+
+<a href=""><p>Forgot password?</p></a>
+
+    <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark btn-lg btn-square" style="background-color: #000; color: #fff !important" value="LOG IN" />
+    <input type="hidden" name="redirect_to" value="http://www.deleklubben.dk/artmoney/wordpress/wp-admin/" />
+    <input type="hidden" name="testcookie" value="1" />
+
+    </form>
+
+</div>
+</div>
+</div>
+
+
+<!--
 <div class="container-fluid">
 <div class="row justify-content-center">
 
@@ -126,6 +167,7 @@
 </div>
 </div>
 </div>
+-->
 
 
 

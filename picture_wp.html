@@ -51,11 +51,11 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="collection.html">GALLERY </a>
+        <a class="nav-link" href="collection_wp.html">GALLERY </a>
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="artists.html">ARTISTS </a>
+        <a class="nav-link" href="artists_wp.html">ARTISTS </a>
       </li>
 
         <li class="nav-item">
@@ -87,8 +87,14 @@
 </div>
 </nav>
 
-
 <p class="currency">Alternative currency made of original art</p>
+
+<ol class="breadcrumb" style="background-color: #f0f0f0; border-radius: 0 !important">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="index.html">Gallery</a></li>
+    <li class="breadcrumb-item active">Artmoney</li>
+</ol>
+
 
 
 
@@ -98,75 +104,8 @@
 
 <!-- Here come Artmoney picture and all info about it -->
 
-
-
-
-<!--
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 art_picture data_art">
-<img src="picture/picture_Lars_01.jpg" alt="Model">
-
-<div class="social_media"><div class="facebook"></div>
-<div class="instagram"></div>
-<div class="pinterest"></div></div>
-</div>
-
-
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 picture_description">
-
-<h3 class="data_arttitle">Model back view</h3>
-
-<dt class="serial_number">Serial no.: Lars Kraemmer-2015-162</dt>
-
-<h4 class="user_artist">Lars Christian Kræmmer</h4>
-
-<dt class="owned_by">Owned by: Lars Christian Kræmmer</dt><br>
-
-<dt class="style">Style: Figurative</dt>
-<dt class="material">Material: Paper</dt><br>
-<p class="artmoney_descriprion">I draw from live model. Apply the water colour first and draw lines of charcoal into the wet paint.</p>
-
-<dt class="price">Price: 200,00 DKK</dt>
-<dt class="shipping_fee">Shipping fee: 0,00 DKK</dt><br>
-
-<button type="button" class="btn btn-dark btn-lg btn-square" style="background-color: #000;">ADD TO CART</button><br>
-
-</div>
--->
-
-
-
-
-
-
-
-
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -395,11 +334,8 @@ clone.querySelector(".price").textContent = post.acf.price;
 
 clone.querySelector(".shipping_fee").textContent = post.acf.shipping_fee;
 
-//            clone.querySelector(".fuglenavn").textContent = post.acf.fuglens_navn;
-//            clone.querySelector(".observationsdato").textContent = post.acf.observationsdato;
-//            clone.querySelector(".observationcontent").innerHTML = post.content.rendered;
-//
-            display.appendChild(clone);
+
+display.appendChild(clone);
 
 
         }
