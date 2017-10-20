@@ -47,36 +47,36 @@
     <ul class="navbar-nav mr-auto">
 
 
-    <li class="nav-item">
-        <a class="nav-link" href="index.html">HOME </a>
+    <li class="nav-item active">
+        <a class="nav-link" href="index.php">HOME </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="collection_wp.html">GALLERY </a>
+        <a class="nav-link" href="collection_wp.php">GALLERY </a>
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="artists_wp.html">ARTISTS </a>
+        <a class="nav-link" href="artists_wp.php">ARTISTS </a>
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="partners.html">SHOPS </a>
-      </li>
-
-        <li class="nav-item" style="background-color: #780a23; border-radius: 0 !important">
-        <a class="nav-link" href="campaign.html"> CAMPAIGN </a>
+        <a class="nav-link" href="partners.php">SHOPS </a>
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="events.html">NEWS </a>
+        <a class="nav-link" href="campaign.php">CAMPAIGN! </a>
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="about.html">ABOUT </a>
+        <a class="nav-link" href="events.php">NEWS </a>
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="faq.html">FAQ </a>
+        <a class="nav-link" href="about.php">ABOUT </a>
+      </li>
+
+        <li class="nav-item">
+        <a class="nav-link" href="faq.php">FAQ </a>
       </li>
 
 </ul>
@@ -85,9 +85,9 @@
     <input class="form-control mr-sm-2" type="text" style="border-radius: 0 !important" placeholder="SEARCH" aria-label="Search">
     </form>
 
-    <a href="login.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #000;">LOG IN</a>
+    <a href="login.php" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #000;">LOG IN</a>
 
-    <a href="signup.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #780a23;">JOIN US</a>
+    <a href="signup.php" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #780a23;">JOIN US</a>
 
 
 </div>
@@ -103,7 +103,7 @@
         <div class="row justify-content-end moto">
             <div class="col-xs-8 col-sm-8 col-mg-8 col-lg-8 needcash">
                 <img src="picture/Need_Cash-01.svg" alt="needcash">
-                <a href="events.html"><div class="campaign"></div></a>
+                <a href="campaign.php"><div class="campaign"></div></a>
             </div>
         </div>
     </div>
@@ -127,17 +127,17 @@
 <div class="row justify-content-center">
 
 <div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="signup.html"><img src="picture/Icon_Sell_Artmoney-01.svg" alt="icon">
+<a href="signup.php"><img src="picture/Icon_Sell_Artmoney-01.svg" alt="icon">
 <h5>SELL ARTMONEY</h5></a>
 </div>
 
 <div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="collection_wp.html"><img src="picture/Icon_Buy_Artmoney-01.svg" alt="icon">
+<a href="collection_wp.php"><img src="picture/Icon_Buy_Artmoney-01.svg" alt="icon">
 <h5>BUY ARTMONEY</h5></a>
 </div>
 
 <div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="partners.html"><img src="picture/Icon_Use_Artmoney-01.svg" alt="icon">
+<a href="partners.php"><img src="picture/Icon_Use_Artmoney-01.svg" alt="icon">
 <h5>USE ARTMONEY</h5></a>
 </div>
 
@@ -149,40 +149,6 @@
 <h3>WHAT IS THE IDEA OF ARTMONEY? WATCH VIDEO!</h3><br>
 
 
-
-<!-- Artist Shop Collector JS -->
-
-<!--
-<div class="container-fluid">
-<div class="row justify-content-center">
-<div class="col-xs-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-
-<div id="icon"></div>
-
-</div>
-</div>
-</div>
-
-
-<div class="container-fluid">
-<div class="row justify-content-center">
-<div class="col-xs-12 col-md-10 col-lg-8 text_home">
-
-<div class="info_box">
-<div class="table person_data">
-
-<div class="text">
-<h3 class="data_text"></h3>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div><br>
--->
-
-<!-- Artist Shop Collector JS Finished -->
 
 
 
@@ -202,7 +168,7 @@ Your borwser does not support the video tag.
 
 <div id="endcredits">
 <div id="endcreditsbutton">
-<a href="signup.html" class="btn btn-outline-light btn-lg btn-square">JOIN ARTMONEY NOW!</a><br>
+<a href="signup.php" class="btn btn-outline-light btn-lg btn-square">JOIN ARTMONEY NOW!</a><br>
 <p class="font_small">Be part of our community, find friends and like-minded people!</p>
 </div>
 
@@ -229,77 +195,10 @@ Your borwser does not support the video tag.
 
 
 
-<section id="address">
-<footer>
-
-
-<div class="container-fluid">
-<div class="row justify-content-between">
-
-<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-<h3>Artmoney Boutique</h3>
-
-<img src="picture/boutique.jpg" alt="boutique">
-<br>
-<p>Kronprinsesse Sofies Vej 7, 2000 Frederiksberg, Denmark</p>
-
-<a href="https://www.google.dk/maps/place/Kronprinsesse+Sofies+Vej+7,+2000+Frederiksberg/@55.6876051,12.5302905,17z/data=!3m1!4b1!4m5!3m4!1s0x465253b734e2f4e3:0x886a5c4a36c3015f!8m2!3d55.6876051!4d12.5324792"><div class="googlemap_bw"></div></a><br>
-
-</div>
-
-
-<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-<h3>Artmoney Newsletter</h3>
-
-<div class="input">
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="USERNAME" aria-label="Username" aria-describedby="basic-addon1">
-<br>
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="E-MAIL" aria-label="Username" aria-describedby="basic-addon1">
-<br>
-
-
-
-<button type="button" class="btn btn-dark btn-lg btn-square" style="background-color: #000; border-radius: 0 !important">SUBSCRIBE</button>
-<br><br>
-<button type="button" class="btn btn-outline-dark btn-sm btn-square">UNSUBSCRIBE</button><br><br>
-</div>
-
-
-
-
-
-
-
-</div>
-
-<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-<h3>Terms and privacy</h3>
-<p>Please read the terms and privacy policy before using the services on this website.</p>
-<li><a>Terms of service</a></li>
-<li><a>Privacy policy</a></li>
-<a href="https://www.paypal.com/dk/home"><div class="paypal"></div></a>
-<p class="font_small">BIAM ApS – Artmoney<br>
-c/o Lars Kraemmer<br>
-CVR/VAT #: 28899165</p>
-
-</div>
-
-
-</div>
-</div>
-
-</footer>
-</section>
-
-
-<div class="after_footer">
-<p class="font_small"><a class="mail" href="mailto:artmoney@mail.dk">artmoney@mail.dk</a> / +45 24251777</p>
-
-<div class="social_media_white">
-<div class="facebook_white"></div>
-<div class="instagram_white"></div>
-<div class="pinterest_white"></div></div>
-</div>
+<?php
+$pagename = 'index';
+include('footer.php');
+?>
 
 
 
@@ -310,13 +209,6 @@ CVR/VAT #: 28899165</p>
 
 
 
-
-
-    <!-- Artists Partners Collectors Scripts -->
-      <!-- Other jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <script src="ArtistsPartnersCollectors.js"></script>
 
 
 
@@ -324,7 +216,7 @@ CVR/VAT #: 28899165</p>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-<!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 

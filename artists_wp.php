@@ -1,101 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="picture/favicon.png">
 
 
 
-
-     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-<!--    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">-->
-
-
-    <title>Artmoney</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
-    <link href="style.css" rel="stylesheet">
-
-</head>
+<?php
+$pagename = 'artists_wp';
+include('head.php');
+?>
 
 
 <body onload="myFunction()" style="margin:0;">
 
 
-<a href="#address"><div class="logo"></div></a>
+<?php
+$pagename = 'artists_wp';
+include('header.php');
+?>
 
-<div class="shopping"></div>
-
-
-
-
-
-
-
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #828282;">
-<!--  <a class="navbar-brand" href="#">Navbar</a>-->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color: #000; border-radius: 0 !important">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="collection_wp.html">GALLERY </a>
-      </li>
-
-        <li class="nav-item">
-        <a class="nav-link" href="artists_wp.html">ARTISTS </a>
-      </li>
-
-        <li class="nav-item">
-        <a class="nav-link" href="partners.html">SHOPS </a>
-      </li>
-
-        <li class="nav-item">
-        <a class="nav-link" href="events.html">NEWS </a>
-      </li>
-
-        <li class="nav-item">
-        <a class="nav-link" href="about.html">ABOUT </a>
-      </li>
-
-        <li class="nav-item">
-        <a class="nav-link" href="faq.html">FAQ </a>
-      </li>
-
-</ul>
-
-<form class="form-inline my-2 my-lg-0">
-    <input class="form-control mr-sm-2" type="text" style="border-radius: 0 !important" placeholder="SEARCH" aria-label="Search">
-    </form>
-
-    <a href="login.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #000;">LOG IN</a>
-
-    <a href="signup.html" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #780a23;">JOIN US</a>
-
-</div>
-</nav>
-
-<p class="currency">Alternative currency made of original art</p>
 
 
 <ol class="breadcrumb" style="background-color: #f0f0f0; border-radius: 0 !important">
-  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item"><a href="index.php">Home</a></li>
   <li class="breadcrumb-item active">Artists</li>
 </ol>
 
-<!--<div class="d-sm-none filtermobile"></div>-->
+
 
 
 
@@ -166,78 +95,11 @@
 
 
 
+<?php
+$pagename = 'artists_wp';
+include('footer.php');
+?>
 
-<section id="address">
-<footer>
-
-
-<div class="container-fluid">
-<div class="row justify-content-between">
-
-<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-<h3>Artmoney Boutique</h3>
-
-<img src="picture/boutique.jpg" alt="boutique">
-<br>
-<p>Kronprinsesse Sofies Vej 7, 2000 Frederiksberg, Denmark</p>
-
-<a href="https://www.google.dk/maps/place/Kronprinsesse+Sofies+Vej+7,+2000+Frederiksberg/@55.6876051,12.5302905,17z/data=!3m1!4b1!4m5!3m4!1s0x465253b734e2f4e3:0x886a5c4a36c3015f!8m2!3d55.6876051!4d12.5324792"><div class="googlemap_bw"></div></a><br>
-
-</div>
-
-
-<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-<h3>Artmoney Newsletter</h3>
-
-<div class="input">
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="USERNAME" aria-label="Username" aria-describedby="basic-addon1">
-<br>
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="E-MAIL" aria-label="Username" aria-describedby="basic-addon1">
-<br>
-
-
-
-<button type="button" class="btn btn-dark btn-lg btn-square" style="background-color: #000; border-radius: 0 !important">SUBSCRIBE</button>
-<br><br>
-<button type="button" class="btn btn-outline-dark btn-sm btn-square">UNSUBSCRIBE</button><br><br>
-</div>
-
-
-
-
-
-
-
-</div>
-
-<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-<h3>Terms and privacy</h3>
-<p>Please read the terms and privacy policy before using the services on this website.</p>
-<li><a>Terms of service</a></li>
-<li><a>Privacy policy</a></li>
-<a href="https://www.paypal.com/dk/home"><div class="paypal"></div></a>
-<p class="font_small">BIAM ApS – Artmoney<br>
-c/o Lars Kraemmer<br>
-CVR/VAT #: 28899165</p>
-
-</div>
-
-
-</div>
-</div>
-
-</footer>
-</section>
-
-
-<div class="after_footer">
-<p class="font_small"><a class="mail" href="mailto:artmoney@mail.dk">artmoney@mail.dk</a> I +45 24251777</p>
-
-<div class="social_media_white">
-<div class="facebook_white"></div>
-<div class="instagram_white"></div>
-<div class="pinterest_white"></div></div>
-</div>
 
 
 
@@ -354,7 +216,7 @@ CVR/VAT #: 28899165</p>
         clone.querySelector(".data_artists_name").textContent = post.name;
         clone.querySelector(".data_artists_country").textContent = post.acf.country;
         clone.querySelector(".profile_artists_picture").src = post.acf.profile_picture;
-        clone.querySelector(".data_artistlink").href = "account_wp.html?id=" + post.id;
+        clone.querySelector(".data_artistlink").href = "account_wp.php?id=" + post.id;
 
 
         display.appendChild(clone);

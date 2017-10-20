@@ -25,7 +25,7 @@
 </head>
 
 
-<body>
+<body onload="myFunction()" style="margin:0;">
 
 
 <a href="#address"><div class="logo"></div></a>
@@ -98,8 +98,8 @@
 
 
 
-
-<div class="container-fluid">
+<div id="loader"></div>
+<div class="container-fluid" style="display:none;" id="myDiv" class="animate-bottom">
 <div class="row align-items-center justify-content-center masterpiece">
 
 <!-- Here come Artmoney picture and all info about it -->
@@ -341,6 +341,21 @@ display.appendChild(clone);
         }
 
     </script>
+
+
+<!--Preloader-->
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
 
 
 
