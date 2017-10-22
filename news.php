@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
-$pagename = 'login';
+
+ <?php
+$pagename = 'news';
 include('head.php');
 ?>
+
 
 
 <body>
 
 
-
 <?php
-$pagename = 'login';
+$pagename = 'news';
 include('header.php');
 ?>
 
@@ -21,7 +22,7 @@ include('header.php');
 
 <ol class="breadcrumb" style="background-color: #f0f0f0; border-radius: 0 !important">
   <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-  <li class="breadcrumb-item active">Login</li>
+  <li class="breadcrumb-item active">News</li>
 </ol>
 
 
@@ -31,50 +32,66 @@ include('header.php');
 
 <div class="container-fluid">
 <div class="row justify-content-center">
-<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-4 picture_description">
-
-    <h3 class="signup">LOG IN</h3>
-
-
-    <form name="loginform" id="loginform" action="http://www.deleklubben.dk/artmoney/wordpress/wp-login.php" method="post">
-
-    <div class="form-group">
-    <label for="user_login" class="sr-only">Username or Email Address</label>
-    <input type="text"  name="log" class="input form-control" style="border-radius: 0 !important" id="brugernavn" placeholder="USERNAME OR E-MAIL" name="log" id="user_login" value="" aria-describedby="login_error">
-    </div>
-
-    <div class="form-group">
-    <label for="user_pass" class="sr-only">PASSWORD</label>
-    <input type="password" class="input form-control" style="border-radius: 0 !important" id="psw" placeholder="PASSWORD" name="pwd" id="user_pass" value="" aria-describedby="login_error">
-    </div>
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 news_picture">
+<img src="picture/news_1.jpg" alt="news">
+</div>
 
 
-    <p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Remember Me</label></p>
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 news_description">
 
-    <a href=""><p>Forgot password?</p></a>
+<h3>Opening of permanent art exhibition - Pm Artmoney Gallery</h3>
+<p>21/10/2017</p>
 
-    <p class="submit">
-		<input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark btn-lg btn-square" style="background-color: #000; color: #fff !important" value="LOG IN" />
-		<input type="hidden" name="redirect_to" value="http://www.deleklubben.dk/artmoney/wordpress/wp-admin/" />
-		<input type="hidden" name="testcookie" value="1" />
-	</p>
+<p>PM Art establishes a permanent gallery for Artmoney in some of the existing premises. Peter Møller, who holds PM art, has been part of Artmoney since 2012 and has previously exhibited both Danish and foreign Artmoney artists.</p>
 
-    </form>
+
+<div class="social_media"><div class="facebook"></div>
+<div class="instagram"></div>
+<div class="pinterest"></div></div><br><br><br>
+
+
+</div>
+</div>
+<div class="black_line2"></div>
+</div>
+<br>
+
+
+
+<div class="container-fluid">
+<div class="row justify-content-center">
+
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 news_picture">
+<img src="picture/news_2.jpg" alt="news">
+</div>
+
+
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 news_description">
+
+<h3>Artmoney Christmas Exhibition</h3>
+<p>01/12/2017-21/12/2017</p>
+
+<p>Choose from hundreds of artmoney that are not online - here is something for everyone! Original artwork for just 200DKK.</p>
+
+
+<div class="social_media"><div class="facebook"></div>
+<div class="instagram"></div>
+<div class="pinterest"></div></div><br><br>
+
 
 </div>
 </div>
 </div>
+<br>
+
 
 
 
 
 <?php
-$pagename = 'login';
+$pagename = 'news';
 include('footer.php');
 ?>
-
-
-
 
 
 

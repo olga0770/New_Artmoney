@@ -29,10 +29,15 @@ include('header.php');
 
 <div class="container-fluid">
 <div class="row justify-content-center">
-
 <div class="col-xs-12 col-sm-8 col-md-8 col-xl-6 picture_description">
 
-<div class="campaign_logo"></div><br>
+<div class="container-fluid campaign_logo">
+    <div class="row">
+        <div class="col-xs-12 col-sm-10 col-lg-9">
+                <img src="picture/campaign-logo-01.svg" alt="campaign">
+        </div>
+    </div>
+</div>
 
 <p>Artmoney starts a social project that aiming to attract some public attention to prisoners' problems and find talented, artistically gifted people between them. We think these people can create unusual and really interesting art. They can also sell their production after their registration on our website and be part of our creative community. And it's free for them! We are sure that their unusual point of view can also attract more collectors who are excited about prison art.</p>
 

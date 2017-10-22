@@ -38,7 +38,7 @@
       </li>
 
         <li class="nav-item <?php if($pagename == 'news'){ echo "active"; } ?>">
-        <a class="nav-link" href="events.php">NEWS </a>
+        <a class="nav-link" href="news.php">NEWS </a>
       </li>
 
         <li class="nav-item <?php if($pagename == 'about'){ echo "active"; } ?>">

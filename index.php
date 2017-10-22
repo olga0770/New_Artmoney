@@ -68,7 +68,7 @@
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="events.php">NEWS </a>
+        <a class="nav-link" href="news.php">NEWS </a>
       </li>
 
         <li class="nav-item">
@@ -103,7 +103,17 @@
         <div class="row justify-content-end moto">
             <div class="col-xs-8 col-sm-8 col-mg-8 col-lg-8 needcash">
                 <img src="picture/Need_Cash-01.svg" alt="needcash">
-                <a href="campaign.php"><div class="campaign"></div></a>
+
+                <div class="container-fluid campaign">
+                <div class="row justify-content-end">
+                <div class="col-xs-12 col-sm-10 col-mg-8 col-lg-8 col-xl-5">
+
+                    <a href="campaign.php"><img src="picture/campaign-01.svg" alt="campaign"></a>
+
+                </div>
+                </div>
+                </div>
+
             </div>
         </div>
     </div>

@@ -303,26 +303,27 @@ transition: .4s;
 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 <h3>Artmoney Newsletter</h3>
 
-<div class="input">
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="USERNAME" aria-label="Username" aria-describedby="basic-addon1">
-<br>
-<input type="text" class="form-control" style="border-radius: 0 !important" placeholder="E-MAIL" aria-label="Username" aria-describedby="basic-addon1">
-<br>
+<form class="form" name="loginform" id="loginform" action="http://www.deleklubben.dk/artmoney/wordpress/" action="" method="post">
+
+    <div class="form-group">
+    <label for="user_email" class="sr-only">EMAIL</label>
+    <input type="text" class="input form-control" style="border-radius: 0 !important" id="user_email" placeholder="E-MAIL" name="user_email" id="user_email" aria-describedby="login_error">
+    </div>
+
+    <p id="reg_passmail">Registration confirmation will be emailed to you.</p>
+
+	<input type="hidden" name="redirect_to" value="" />
 
 
+    <p class="submit"><input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark btn-lg btn-square" style="background-color: #000; color: #fff !important" value="SUBSCRIBE" /></p>
 
-<button type="button" class="btn btn-dark btn-lg btn-square" style="background-color: #000; border-radius: 0 !important">SUBSCRIBE</button>
-<br><br>
-<button type="button" class="btn btn-outline-dark btn-sm btn-square">UNSUBSCRIBE</button><br><br>
+</form><br>
 </div>
 
 
 
 
 
-
-
-</div>
 
 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 <h3>Terms and privacy</h3>
@@ -330,10 +331,6 @@ transition: .4s;
 <li><a>Terms of service</a></li>
 <li><a>Privacy policy</a></li>
 <a href="https://www.paypal.com/dk/home"><div class="paypal"></div></a>
-<p class="font_small">BIAM ApS – Artmoney<br>
-c/o Lars Kraemmer<br>
-CVR/VAT #: 28899165</p>
-
 </div>
 
 
@@ -345,7 +342,7 @@ CVR/VAT #: 28899165</p>
 
 
 <div class="after_footer">
-<p class="font_small"><a class="mail" href="mailto:artmoney@mail.dk">artmoney@mail.dk</a> / +45 24251777</p>
+<p class="font_small"><a class="mail" href="mailto:artmoney@mail.dk">artmoney@mail.dk</a> / +45 24251777 / BIAM ApS – Artmoney</p>
 
 <div class="social_media_white">
 <div class="facebook_white"></div>

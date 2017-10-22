@@ -41,29 +41,20 @@ include('header.php');
 <form class="form" name="registerform" id="registerform" action="http://www.deleklubben.dk/artmoney/wordpress/wp-login.php?action=register" action="" method="post" novalidate="novalidate">
 
     <div class="form-group">
-    <label for="username" class="sr-only">USERNAME</label>
-    <input type="text" class="input form-control" style="border-radius: 0 !important" id="username" placeholder="USERNAME" name="log" id="username" aria-describedby="login_error">
+    <label for="user_login" class="sr-only">Username</label>
+    <input type="text" class="input form-control" style="border-radius: 0 !important" id="user_login" placeholder="USERNAME" name="user_login" aria-describedby="login_error">
     </div>
-
 
     <div class="form-group">
     <label for="user_email" class="sr-only">EMAIL</label>
-    <input type="text" class="input form-control" style="border-radius: 0 !important" id="user_email" placeholder="E-MAIL" name="log" id="user_email" aria-describedby="login_error">
+    <input type="text" class="input form-control" style="border-radius: 0 !important" id="user_email" placeholder="E-MAIL" name="user_email" id="user_email" aria-describedby="login_error">
     </div>
 
-    <div class="form-group">
-    <label for="psw" class="sr-only">PASSWORD</label>
-    <input type="password" class="input form-control" style="border-radius: 0 !important" id="psw" placeholder="PASSWORD" name="pwd" id="user_pass" aria-describedby="login_error">
-    </div>
+    <p id="reg_passmail">Registration confirmation will be emailed to you.</p>
 
-    <p id="reg_passmail">You will recieve an e-mail where you need to confirm your registration.</p>
-                <br class="clear" />
-                <input type="hidden" name="redirect_to" value="" />
+	<input type="hidden" name="redirect_to" value="" />
 
-
-    <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark btn-lg btn-square" style="background-color: #000; color: #fff !important" value="CREATE ACCOUNT" />
-    <input type="hidden" name="redirect_to" value="http://www.deleklubben.dk/artmoney/wordpress/wp-admin/" />
-    <input type="hidden" name="testcookie" value="1" />
+    <p class="submit"><input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark btn-lg btn-square" style="background-color: #000; color: #fff !important" value="CREATE ACCOUNT" /></p>
 
 </form>
 

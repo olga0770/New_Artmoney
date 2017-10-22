@@ -107,29 +107,28 @@
     <h3 class="signup">LOG IN</h3>
 
 
-    <form class="form" name="loginform" id="loginform" action="http://www.deleklubben.dk/artmoney/wordpress/wp-login.php" action="" method="post">
+    <form name="loginform" id="loginform" action="http://www.deleklubben.dk/artmoney/wordpress/wp-login.php" method="post">
 
     <div class="form-group">
-    <label for="Username" class="sr-only">UUSERNAME</label>
-    <input type="text" class="input form-control" style="border-radius: 0 !important" id="brugernavn" placeholder="USERNAME OR E-MAIL" name="log" id="user_login" aria-describedby="login_error">
+    <label for="user_login" class="sr-only">Username or Email Address</label>
+    <input type="text"  name="log" class="input form-control" style="border-radius: 0 !important" id="brugernavn" placeholder="USERNAME OR E-MAIL" name="log" id="user_login" value="" aria-describedby="login_error">
     </div>
 
     <div class="form-group">
-    <label for="psw" class="sr-only">PASSWORD</label>
-    <input type="password" class="input form-control" style="border-radius: 0 !important" id="psw" placeholder="PASSWORD" name="pwd" id="user_pass" aria-describedby="login_error">
+    <label for="user_pass" class="sr-only">PASSWORD</label>
+    <input type="password" class="input form-control" style="border-radius: 0 !important" id="psw" placeholder="PASSWORD" name="pwd" id="user_pass" value="" aria-describedby="login_error">
     </div>
 
 
-    <p>
-    <label for="rememberme">
-        <input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember me</label>
-    </p>
+    <p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Remember Me</label></p>
 
-<a href=""><p>Forgot password?</p></a>
+    <a href=""><p>Forgot password?</p></a>
 
-    <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark btn-lg btn-square" style="background-color: #000; color: #fff !important" value="LOG IN" />
-    <input type="hidden" name="redirect_to" value="http://www.deleklubben.dk/artmoney/wordpress/wp-admin/" />
-    <input type="hidden" name="testcookie" value="1" />
+    <p class="submit">
+		<input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark btn-lg btn-square" style="background-color: #000; color: #fff !important" value="LOG IN" />
+		<input type="hidden" name="redirect_to" value="http://www.deleklubben.dk/artmoney/wordpress/wp-admin/" />
+		<input type="hidden" name="testcookie" value="1" />
+	</p>
 
     </form>
 

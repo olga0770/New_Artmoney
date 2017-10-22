@@ -315,14 +315,8 @@ margin-top: 3em;
 }
 
 .campaign{
-width: 400px;
-height: 100px;
-background-image: url(picture/campaign-01.svg);
-position: relative;
 z-index: 1;
-left: 100%;
-margin-left: -390px;
-margin-top: -20px;
+margin-top: -10px;
 transform: scale(1);
 transition: .4s;
 }
@@ -337,10 +331,8 @@ transform: scale(1.04);
 
 
 .campaign_logo{
-width: 400px;
-height: 100px;
-background-image: url(picture/campaign-logo-01.svg);
-position: relative;
+margin-left: -15px;
+margin-top: -15px;
 }
 
 
@@ -619,6 +611,15 @@ color: #000;
 
 .about_description h4{
 margin-top: 0px;
+}
+
+
+.news_description h3{
+margin-top: 0px;
+}
+
+.news_picture{
+margin-top: 15px;
 }
 
 
