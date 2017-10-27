@@ -4,7 +4,7 @@
 
 
 <?php
-$pagename = 'artists_wp';
+$pagename = 'shops_wp';
 include('head.php');
 ?>
 
@@ -13,7 +13,7 @@ include('head.php');
 
 
 <?php
-$pagename = 'artists_wp';
+$pagename = 'shops_wp';
 include('header.php');
 ?>
 
@@ -21,7 +21,7 @@ include('header.php');
 
 <ol class="breadcrumb" style="background-color: #f0f0f0; border-radius: 0 !important">
   <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-  <li class="breadcrumb-item active">Artists</li>
+  <li class="breadcrumb-item active">Shops</li>
 </ol>
 
 
@@ -47,7 +47,33 @@ include('header.php');
     <option value=".Norway">Norway</option>
     <option value=".Finland">Finland</option>
     <option value=".Sweden">Sweden</option>
+    <option value=".Spain">Spain</option>
 </select><br><br>
+
+
+
+<h5>INDUSTRY</h5>
+<div class="black_line2"></div>
+<fieldset class="input-field" data-filter-group="industry">
+        <input type="radio" name="industry" value=".art"><label>Art</label><br>
+        <input type="radio" name="industry" value=".health"><label>Health</label><br>
+        <input type="radio" name="industry" value=".service"><label>Service</label><br>
+        <input type="radio" name="industry" value=".retail"><label>Retail</label><br>
+        <input type="radio" name="industry" value=".marketing"><label>Marketing</label><br>
+        <input type="radio" name="industry" value=".food"><label>Food</label><br>
+        <input type="radio" name="industry" value=".drink"><label>Drink</label><br>
+        <input type="radio" name="industry" value=".education"><label>Education</label><br>
+        <input type="radio" name="industry" value=".entertainment"><label>Entertainment</label><br>
+        <input type="radio" name="industry" value=".hospitality"><label>Hospitality</label><br>
+        <input type="radio" name="industry" value=".travel"><label>Travel</label><br>
+        <input type="radio" name="industry" value=".finance"><label>Finance</label><br>
+        <input type="radio" name="industry" value=".transportation"><label>Transportation</label><br>
+        <input type="radio" name="industry" value=".sport"><label>Sport</label><br>
+    </fieldset><br><br>
+
+
+
+
 
 </div>
 
@@ -83,7 +109,11 @@ include('header.php');
 </nav>
 <br>
 
-
+<div class="black_line2"></div>
+<div class="find_partners"><h4>FIND OUR PARTNERS</h4>
+<h5>THAT ARE CLOSE TO YOU AT THE MOMENT</h5>
+<a href="https://www.google.dk/maps/place/Kronprinsesse+Sofies+Vej+7,+2000+Frederiksberg/@55.6876051,12.5302905,17z/data=!3m1!4b1!4m5!3m4!1s0x465253b734e2f4e3:0x886a5c4a36c3015f!8m2!3d55.6876051!4d12.5324792"><div class="googlemap"></div></a>
+</div>
 
 
 
@@ -96,7 +126,7 @@ include('header.php');
 
 
 <?php
-$pagename = 'artists_wp';
+$pagename = 'shops_wp';
 include('footer.php');
 ?>
 
@@ -202,7 +232,7 @@ include('footer.php');
             let template = document.querySelector(".artists_template");
             let display = document.querySelector(".artists_info");
             posts.forEach(function(post) {
-                if (post.acf.user_type != "artist") {
+                if (post.acf.user_type != "shop") {
                 return;
                 }
                 let clone = template.content.cloneNode(true);
@@ -212,14 +242,14 @@ include('footer.php');
 
       // Mix it up
         clone.querySelector(".mix").classList.add(post.acf.country);
-
+        clone.querySelector(".mix").classList.add(post.acf.industry);
 
 
 
         clone.querySelector(".data_artists_name").textContent = post.name;
         clone.querySelector(".data_artists_country").textContent = post.acf.country;
         clone.querySelector(".profile_artists_picture").src = post.acf.profile_picture;
-        clone.querySelector(".data_artistlink").href = "account_wp.php?id=" + post.id;
+        clone.querySelector(".data_artistlink").href = "shop_account_wp.php?id=" + post.id;
 
 
         display.appendChild(clone);

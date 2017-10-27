@@ -293,7 +293,6 @@ CVR/VAT #: 28899165</p>
 
 <p class="data_artist_country"></p>
 <p class="data_artist_telephone"></p>
-<p class="data_artist_email"></p>
 
 <a href="" class="btn btn-outline-dark btn-sm btn-square artist_website" role="button" aria-pressed="true">WEBSITE</a><br><br>
 
@@ -301,7 +300,12 @@ CVR/VAT #: 28899165</p>
 </div>
 </div>
 
-<br>
+
+
+
+
+
+
 
 <div class="container-fluid">
 <div class="row">
@@ -407,19 +411,17 @@ CVR/VAT #: 28899165</p>
             clone.querySelector(".data_artist_name").textContent = post.name;
             clone.querySelector(".data_artist_country").textContent = post.acf.country;
             clone.querySelector(".data_artist_telephone").textContent = post.acf.telephone;
-//            clone.querySelector(".data_artist_email").href = post.acf.e-mail;
             clone.querySelector(".description_account").textContent = post.acf.about;
             clone.querySelector(".artist_website").href = post.url;
 
             display.appendChild(clone);
             }
 
+
+
 </script>
 
-<!--
-<p class="data_artist_telephone"></p>
-<p class="data_artist_e-mail"></p>
--->
+
 
 
 

@@ -13,18 +13,17 @@ include('head.php');
 
 <?php
 $pagename = 'login';
-include('header1.php');
+include('header.php');
 ?>
 
 
 
 
 <ol class="breadcrumb" style="background-color: #f0f0f0; border-radius: 0 !important">
-  <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-  <li class="breadcrumb-item active">Login</li>
+<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+<li class="breadcrumb-item"><a href="artists_wp.php">Artists</a></li>
+<li class="breadcrumb-item active">Artist</li>
 </ol>
-
-
 
 
 
@@ -33,33 +32,9 @@ include('header1.php');
 <div class="row justify-content-center">
 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-4 picture_description">
 
-    <h3 class="signup">LOG IN</h3>
+    <h3 class="signup">Thank you - you get the answer as soon as possible!
+</h3>
 
-
-    <form name="loginform" id="loginform" action="http://www.deleklubben.dk/artmoney/wordpress/wp-login.php" method="post">
-
-    <div class="form-group">
-    <label for="user_login" class="sr-only">Username or Email Address</label>
-    <input type="text"  name="log" class="input form-control" style="border-radius: 0 !important" id="brugernavn" placeholder="USERNAME OR E-MAIL" name="log" id="user_login" value="" aria-describedby="login_error">
-    </div>
-
-    <div class="form-group">
-    <label for="user_pass" class="sr-only">PASSWORD</label>
-    <input type="password" class="input form-control" style="border-radius: 0 !important" id="psw" placeholder="PASSWORD" name="pwd" id="user_pass" value="" aria-describedby="login_error">
-    </div>
-
-
-    <p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> Remember Me</label></p>
-
-    <a href=""><p>Forgot password?</p></a>
-
-    <p class="submit">
-		<input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark btn-lg btn-square" style="background-color: #000; color: #fff !important" value="LOG IN" />
-		<input type="hidden" name="redirect_to" value="http://www.deleklubben.dk/artmoney/wordpress/wp-admin/" />
-		<input type="hidden" name="testcookie" value="1" />
-	</p>
-
-    </form>
 
 </div>
 </div>

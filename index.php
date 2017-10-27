@@ -60,7 +60,7 @@
       </li>
 
         <li class="nav-item">
-        <a class="nav-link" href="partners.php">SHOPS </a>
+        <a class="nav-link" href="shops_wp.php">SHOPS </a>
       </li>
 
         <li class="nav-item">

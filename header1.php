@@ -55,8 +55,6 @@
     <input class="form-control mr-sm-2" type="text" style="border-radius: 0 !important" placeholder="SEARCH" aria-label="Search">
     </form>
 
-    <a href="login.php" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #000;">LOG IN</a>
-
     <a href="signup.php" class="btn btn-outline-light btn-square" role="button" aria-pressed="true" style="background-color: #780a23;">JOIN US</a>
 
 </div>

@@ -12,7 +12,7 @@ include('head.php');
 
 <?php
 $pagename = 'signup';
-include('header.php');
+include('header2.php');
 ?>
 
 
@@ -68,7 +68,6 @@ include('header.php');
 </div>
 </div>
 </div>
-
 
 
 

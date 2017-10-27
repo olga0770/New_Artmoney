@@ -3,7 +3,7 @@
 
 
 <?php
-$pagename = 'account_wp';
+$pagename = 'shop_account_wp';
 include('head.php');
 ?>
 
@@ -14,7 +14,7 @@ include('head.php');
 
 
 <?php
-$pagename = 'account_wp';
+$pagename = 'shop_account_wp';
 include('header.php');
 ?>
 
@@ -77,21 +77,21 @@ transition: .4s;
 
 <ol class="breadcrumb" style="background-color: #f0f0f0; border-radius: 0 !important">
 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-<li class="breadcrumb-item"><a href="artists_wp.php">Artists</a></li>
-<li class="breadcrumb-item active">Artist</li>
+<li class="breadcrumb-item"><a href="shops_wp.php">Shops</a></li>
+<li class="breadcrumb-item active">Shop</li>
 </ol>
 
 
 
 <div id="loader"></div>
 <div class="container-fluid" style="display:none;" id="myDiv" class="animate-bottom">
-<div class="row justify-content-between">
+<div class="row justify-content-center">
 
-<div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 filter">
+<div class="col-xs-12 col-sm-10 col-md-10 col-lg-8 filter">
 <div class="container-fluid">
 <div class="row artist_account">
 
-<!--Here comes artist's profile-->
+<!--Here comes shop's profile-->
 
 </div>
 </div>
@@ -99,31 +99,7 @@ transition: .4s;
 
 
 
-<div class="col-xs-12 col-sm-6 col-md-7 collection">
-<div class="container-fluid">
-<div class="row gallery">
 
-<!--Here comes atrist's pictures-->
-
-</div>
-</div>
-
-<nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" style="border-radius: 0 !important">Previous</a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#"style="border-radius: 0 !important">Next</a>
-    </li>
-  </ul>
-</nav>
-<br>
-
-</div>
 
 </div>
 </div>
@@ -133,7 +109,7 @@ transition: .4s;
 
 
 <?php
-$pagename = 'account_wp';
+$pagename = 'shop_account_wp';
 include('footer.php');
 ?>
 
@@ -147,17 +123,20 @@ include('footer.php');
 <!--Template artist's profile start-->
 <template class="temp_account">
 
+
+
+<div class="col-xs-12 col-sm-12 col-md-6">
+
+
 <div class="container-fluid">
 <div class="row">
 
 
 <div class="col-xs-6 col-sm-8 col-md-6">
 <img class="data_image_account" src="" alt="Lars">
-
-<div id="evaluation"></div>
 </div>
 
-<div class="col-sm-12 col-md-6 text_account">
+<div class="col-xs-6 col-sm-8 col-md-6 text_account">
 <h4 class="data_artist_name"></h4>
 
 <p class="data_artist_country"></p>
@@ -171,21 +150,20 @@ include('footer.php');
 </div>
 
 
-
 <div class="container-fluid">
 <div class="row">
-
 <div class="col-sm-12 description_account">
-
 <p class="artist_about"></p>
-
 </div>
 </div>
-</div><br>
+</div>
+
+</div>
 
 
 
 
+<div class="col-xs-12 col-sm-12 col-md-6">
 
 <div class="container-fluid">
 <div class="row">
@@ -208,7 +186,6 @@ include('footer.php');
     <div class="form-group">
     <label for="emne" class="sr-only">Subject</label>
     <input type="text" class="input form-control" style="border-radius: 0 !important" id="emne" required placeholder="Subject" name="emne" aria-describedby="login_error">
-
     </div>
 
     <input class="kunsnermail" type="hidden" name="kunsnermail" value="">
@@ -225,36 +202,16 @@ include('footer.php');
 </div>
 </div>
 </div>
-
-</template>
-
-<!--Template artist's profile finish-->
-
-
-
-<!--Template artist's pictures start-->
-<template id="collection_template">
-<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3 picture">
-<a class="data_collectionlink" href="">
-<img class="img-responsive data_art artimage" src="" alt="Artmoney">
-<div class="overlay">
-    <div class="text">
-    <h4 class="data_arttitle">DATA_ARTTITLE</h4>
-    <p class="data_artist">DATA_ARTIST</p>
-    </div>
-  </div>
-</a>
 </div>
+
+
+
+
 </template>
-<!--Template artist's pictures finish-->
 
 
 
 
-    <!-- This particular jquery - for Evaluations-stars -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-    <script src="star.js"></script>
 
 
 
@@ -262,7 +219,7 @@ include('footer.php');
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-<!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
@@ -323,47 +280,18 @@ include('footer.php');
             clone.querySelector(".artist_website").href = post.url;
             clone.querySelector(".kunsnermail").value = post.acf.email;
             display.appendChild(clone);
+
+
+
             }
 
 </script>
 
 
 
-<!--Artist's pictures-->
-<script>
 
-    let apiPicturesURL = "http://www.deleklubben.dk/artmoney/wordpress/wp-json/wp/v2/pictures/?author=" + id;
-    let pictures = [];
 
-    getPictures();
-        // take JSON and put data in Pictures
-        async function getPictures() {
-            if (pictures.length < 1) {
-                let result = await fetch(apiPicturesURL, {
-                    method: 'get'
-                });
-                pictures = await result.json();
-                showPictures();
-            }
-        }
 
-        // show user's pictures
-        function showPictures() {
-            let templatepicture = document.querySelector("#collection_template");
-            let displaypictures = document.querySelector(".gallery");
-            pictures.forEach(function(pictures) {
-                console.log(pictures);
-                let clone = templatepicture.content.cloneNode(true);
-
-            clone.querySelector(".data_art").src = pictures.acf.artmoney_image;
-            clone.querySelector(".data_collectionlink").href = "picture_wp.php?id=" + pictures.id;
-            clone.querySelector(".data_arttitle").textContent = pictures.title.rendered;
-            clone.querySelector(".data_artist").textContent = pictures.acf.artist.display_name;
-
-            displaypictures.appendChild(clone);
-            });
-        }
-        </script>
 
 
     <!--Preloader-->
@@ -379,11 +307,6 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 </script>
-
-
-
-
-
 
 
 

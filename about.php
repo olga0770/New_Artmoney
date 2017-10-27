@@ -29,20 +29,6 @@ include('header.php');
 
 
 <div class="container-fluid">
-<div class="row  justify-content-center">
-<div class="col-lg-8 col-lg-offset-2">
-<div class="videocontainer">
-
-<div class="hs-responsive-embed-youtube">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WfjSANPUPuM" frameborder="0" allowfullscreen></iframe>
-</div>
-
-</div>
-</div>
-</div>
-</div><br>
-
-<div class="container-fluid">
 <div class="row justify-content-center">
 <div class="col-xs-12 col-sm-8 col-md-8 col-xl-6 about_description">
 
@@ -51,6 +37,12 @@ include('header.php');
   <a href="#history"><li>The history of Artmoney</li></a>
   <a href="#vision"><li>The vision</li></a>
 </ul></h4>
+
+<div class="videocontainer">
+<div class="hs-responsive-embed-youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WfjSANPUPuM" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
 
 </div>
 </div>

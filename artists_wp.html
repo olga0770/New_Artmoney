@@ -340,7 +340,9 @@ CVR/VAT #: 28899165</p>
             let template = document.querySelector(".artists_template");
             let display = document.querySelector(".artists_info");
             posts.forEach(function(post) {
-                console.log(post);
+                if (post.acf.user_type != "artist") {
+                return;
+                }
                 let clone = template.content.cloneNode(true);
 
 

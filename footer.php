@@ -8,33 +8,32 @@
 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 <h3>Artmoney Boutique</h3>
 
-<img src="picture/boutique.jpg" alt="boutique">
+<a href="https://www.google.dk/maps/place/Kronprinsesse+Sofies+Vej+7,+2000+Frederiksberg/@55.6876051,12.5302905,17z/data=!3m1!4b1!4m5!3m4!1s0x465253b734e2f4e3:0x886a5c4a36c3015f!8m2!3d55.6876051!4d12.5324792"><img src="picture/boutique.jpg" alt="boutique"></a>
 <br>
 <p>Kronprinsesse Sofies Vej 7, 2000 Frederiksberg, Denmark</p>
-
-<a href="https://www.google.dk/maps/place/Kronprinsesse+Sofies+Vej+7,+2000+Frederiksberg/@55.6876051,12.5302905,17z/data=!3m1!4b1!4m5!3m4!1s0x465253b734e2f4e3:0x886a5c4a36c3015f!8m2!3d55.6876051!4d12.5324792"><div class="googlemap_bw"></div></a><br>
-
 </div>
 
 
 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 <h3>Artmoney Newsletter</h3>
 
-<form class="form" name="loginform" id="loginform" action="http://www.deleklubben.dk/artmoney/wordpress/" action="" method="post">
 
-    <div class="form-group">
-    <label for="user_email" class="sr-only">EMAIL</label>
-    <input type="text" class="input form-control" style="border-radius: 0 !important" id="user_email" placeholder="E-MAIL" name="user_email" id="user_email" aria-describedby="login_error">
-    </div>
+<form method="post" action="http://www.deleklubben.dk/artmoney/wordpress/?na=s" onsubmit="return newsletter_check(this)">
+
+<input type="hidden" name="nr" value="widget">
+<input type='hidden' name='nl[]' value='0'>
+<div class="tnp-field tnp-field-email form-group">
+    <label for="user_email" class="sr-only">Email</label>
+
+    <input class="tnp-email input form-control" type="email" name="ne" required style="border-radius: 0 !important" id="user_email" placeholder="E-MAIL"></div>
 
     <p id="reg_passmail">Registration confirmation will be emailed to you.</p>
 
-	<input type="hidden" name="redirect_to" value="" />
+    <div class="tnp-field tnp-field-button"><input class="tnp-submit btn btn-dark btn-lg btn-square" type="submit" value="SUBSCRIBE" style="background-color: #000; color: #fff !important">
+    </div>
+</form>
 
-
-    <p class="submit"><input type="submit" name="wp-submit" id="wp-submit" class="btn btn-dark btn-lg btn-square" style="background-color: #000; color: #fff !important" value="SUBSCRIBE" /></p>
-
-</form><br>
+<br>
 </div>
 
 
