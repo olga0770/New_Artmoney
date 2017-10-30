@@ -1,33 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
-
-
-
-<meta property="og:url"           content="http://www.deleklubben.dk//artmoney/front-end/campaign.php" />
-<meta property="og:type"          content="website" />
-<meta property="og:title"         content="Prison Art" />
-<meta property="og:description"   content="Artmoney starts a social project that aiming to attract some public attention to prisoners' problems and find talented, artistically gifted people between them." />
-<meta property="og:image"         content="http://www.deleklubben.dk//artmoney/front-end/picture/Campaign_Poster.jpg" />
-
-
-
-<link rel="icon" href="picture/favicon.png">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-<title>Artmoney</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
-    <link href="style.css" rel="stylesheet">
-</head>
-
+ <?php
+$pagename = 'campaign';
+include('head.php');
+?>
 
 
 
@@ -93,10 +70,7 @@ include('header.php');
 <h4>By sharing this video you support our artists!</h4>
 
 <div class="social_media">
-
-<div data-href="http://www.deleklubben.dk//artmoney/front-end/campaign.php" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.deleklubben.dk%2Fartmoney%2Ffront-end%2Fcampaign.php&amp;src=sdkpreparse"><div class="facebook"></div></a></div>
-
-
+<div class="facebook"></div>
 <div class="instagram"></div>
 <div class="pinterest"></div>
 </div><br>
@@ -104,7 +78,7 @@ include('header.php');
 
 
 <!-- Facebook button -->
-<!--<div class="fb-share-button" data-href="http://www.deleklubben.dk//artmoney/front-end/campaign.php" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.deleklubben.dk%2Fartmoney%2Ffront-end%2Fcampaign.php&amp;src=sdkpreparse">Share</a></div>-->
+<div class="fb-share-button" data-href="http://www.deleklubben.dk//artmoney/front-end/campaign.php" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.deleklubben.dk%2Fartmoney%2Ffront-end%2Fcampaign.php&amp;src=sdkpreparse">Share</a></div>
 <!-- Facebook button -->
 
 

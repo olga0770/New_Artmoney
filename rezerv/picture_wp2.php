@@ -1,53 +1,15 @@
-<?php
-    $pictureid = $_GET['id'];
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-
-
 <?php
-    include('picturemeta.php');
+$pagename = 'picture_wp';
+include('head.php');
 ?>
-
-
-
-<link rel="icon" href="picture/favicon.png">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-    <title>Artmoney</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
-    <link href="style.css" rel="stylesheet">
-</head>
-
-
-
 
 
 <body onload="myFunction()" style="margin:0;">
 
-<!-- Facebook -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=1980947675520966';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- Facebook -->
 
 <?php
 $pagename = 'picture_wp';
@@ -149,13 +111,6 @@ include('footer.php');
 <div class="instagram"></div>
 <div class="pinterest"></div>
 </div><br>
-
-
-
-
-<!-- Facebook button -->
-<div class="fb-share-button" data-href="http://www.deleklubben.dk/artmoney/front-end/picture_wp.php?id=<?php echo $pictureid; ?>" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.deleklubben.dk%2Fartmoney%2Ffront-end%2Fpicture_wp.php&amp;src=sdkpreparse">Share</a></div>
-<!-- Facebook button -->
 
 </div>
 

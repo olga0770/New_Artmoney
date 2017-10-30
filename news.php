@@ -44,11 +44,7 @@ include('header.php');
 
 <p>PM Art establishes a permanent gallery for Artmoney in some of the existing premises. Peter Møller, who holds PM art, has been part of Artmoney since 2012 and has previously exhibited both Danish and foreign Artmoney artists.</p>
 
-
-<div class="social_media"><div class="facebook"></div>
-<div class="instagram"></div>
-<div class="pinterest"></div></div><br><br><br>
-
+<a href="" class="btn btn-outline-dark btn-sm btn-square artist_website" role="button" aria-pressed="true">MORE INFO...</a><br><br>
 
 </div>
 </div>
@@ -73,10 +69,14 @@ include('header.php');
 
 <p>Choose from hundreds of artmoney that are not online - here is something for everyone! Original artwork for just 200DKK.</p>
 
+<a href="" class="btn btn-outline-dark btn-sm btn-square artist_website" role="button" aria-pressed="true">MORE INFO...</a><br><br>
 
+
+<!--
 <div class="social_media"><div class="facebook"></div>
 <div class="instagram"></div>
 <div class="pinterest"></div></div><br><br>
+-->
 
 
 </div>
