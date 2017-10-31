@@ -7,7 +7,9 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-
+<meta property="fb:app_id"          content="xxxxx" />
+<meta property="fb:admins"          content="xxx" />
+<meta property="fb:app_id" content="{YOUR_APP_ID}" />
 
 <meta property="og:url"           content="http://www.deleklubben.dk//artmoney/front-end/campaign.php" />
 <meta property="og:type"          content="website" />
@@ -90,28 +92,35 @@ include('header.php');
 
 <div class="black_line"></div>
 
-<h4>By sharing this video you support our artists!</h4>
+<h4>By liking and sharing this video you support our artists!</h4>
 
+<!-- Facebook button -->
+<div class="fb-like" data-href="http://www.deleklubben.dk/artmoney/front-end/campaign.php" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+<!-- Facebook button -->
+
+
+<!--
 <div class="social_media">
-
-<div data-href="http://www.deleklubben.dk//artmoney/front-end/campaign.php" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.deleklubben.dk%2Fartmoney%2Ffront-end%2Fcampaign.php&amp;src=sdkpreparse"><div class="facebook"></div></a></div>
-
-
+<div class="facebook"></div>
 <div class="instagram"></div>
 <div class="pinterest"></div>
-</div><br>
+</div>
+-->
+
+<br><br><br>
 
 
-
-<!-- Facebook button -->
-<!--<div class="fb-share-button" data-href="http://www.deleklubben.dk//artmoney/front-end/campaign.php" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.deleklubben.dk%2Fartmoney%2Ffront-end%2Fcampaign.php&amp;src=sdkpreparse">Share</a></div>-->
-<!-- Facebook button -->
-
-
+<!-- Facebook comments -->
+<div class="fb-comments" data-href="http://www.deleklubben.dk/artmoney/front-end/campaign.php" data-width="320" data-numposts="5"></div>
+<!-- Facebook comments -->
 
 </div>
 </div>
 </div><br>
+
+
+
+
 
 
 

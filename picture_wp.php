@@ -38,6 +38,7 @@
 
 <body onload="myFunction()" style="margin:0;">
 
+
 <!-- Facebook -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -68,13 +69,36 @@ include('header.php');
 
 <div id="loader"></div>
 <div class="container-fluid" style="display:none;" id="myDiv" class="animate-bottom">
-<div class="row align-items-center justify-content-center masterpiece">
+<div class="row justify-content-center masterpiece">
 
 <!-- Here come Artmoney picture and all info about it -->
 
 </div>
 </div>
 
+<div class="container-fluid fb_like_share">
+<div class="row align-items-center justify-content-center">
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5"></div>
+
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+
+<div class="black_line"></div>
+
+<h4>By liking and sharing this picture you support our artists!</h4>
+
+<!-- Facebook button -->
+<div class="fb-like" data-href="http://www.deleklubben.dk/artmoney/front-end/picture_wp.php?id=<?php echo $pictureid; ?>" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+<!-- Facebook button -->
+<br><br><br>
+
+<!-- Facebook comments -->
+<div class="fb-comments" data-href="http://www.deleklubben.dk/artmoney/front-end/picture_wp.php?id=<?php echo $pictureid; ?>" data-width="320" data-numposts="5"></div>
+<!-- Facebook comments -->
+
+</div>
+
+</div>
+</div><br><br>
 
 
 
@@ -134,22 +158,11 @@ include('footer.php');
 <dl class="row">
 <dt>Shipping fee: </dt>
 <dd class="shipping_fee"></dd>
-</dl>
-
-<br>
+</dl><br>
 
 <button type="button" class="btn btn-dark btn-lg btn-square" style="background-color: #000;">ADD TO CART</button>
 
-<div class="black_line"></div>
 
-<h4>By sharing this picture you support our artists!</h4>
-
-
-
-
-<!-- Facebook button -->
-<div class="fb-share-button" data-href="http://www.deleklubben.dk/artmoney/front-end/picture_wp.php?id=<?php echo $pictureid; ?>" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.deleklubben.dk%2Fartmoney%2Ffront-end%2Fpicture_wp.php&amp;src=sdkpreparse">Share</a></div>
-<!-- Facebook button -->
 
 <!--
 <div class="social_media">
@@ -158,8 +171,6 @@ include('footer.php');
 <div class="pinterest"></div>
 </div>
 -->
-
-<br>
 </div>
 </template>
 

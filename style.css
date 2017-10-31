@@ -466,11 +466,8 @@ background-image: url(picture/icon_Facebook-01.svg);
 position: absolute;
 }
 
-#fb_share{
-width: 50px;
-height: 44px;
-background-image: url(picture/icon_Facebook-01.svg);
-position: absolute;
+.fb_like_share{
+margin-top: -40px;
 }
 
 .instagram{
@@ -633,8 +630,7 @@ margin-top: 15px;
 
 
 .art_picture{
-padding-top: 50px;
-padding-bottom: 70px;
+padding-top: 5px;
 border-style: solid;
 border: 1px;
 }
