@@ -466,6 +466,13 @@ background-image: url(picture/icon_Facebook-01.svg);
 position: absolute;
 }
 
+#fb_share{
+width: 50px;
+height: 44px;
+background-image: url(picture/icon_Facebook-01.svg);
+position: absolute;
+}
+
 .instagram{
 width: 50px;
 height: 44px;

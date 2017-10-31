@@ -144,12 +144,6 @@ include('footer.php');
 
 <h4>By sharing this picture you support our artists!</h4>
 
-<div class="social_media">
-<div class="facebook"></div>
-<div class="instagram"></div>
-<div class="pinterest"></div>
-</div><br>
-
 
 
 
@@ -157,8 +151,16 @@ include('footer.php');
 <div class="fb-share-button" data-href="http://www.deleklubben.dk/artmoney/front-end/picture_wp.php?id=<?php echo $pictureid; ?>" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.deleklubben.dk%2Fartmoney%2Ffront-end%2Fpicture_wp.php&amp;src=sdkpreparse">Share</a></div>
 <!-- Facebook button -->
 
+<!--
+<div class="social_media">
+<div class="facebook"></div>
+<div class="instagram"></div>
+<div class="pinterest"></div>
 </div>
+-->
 
+<br>
+</div>
 </template>
 
 
@@ -174,7 +176,7 @@ include('footer.php');
 
 
     <!-- Bootstrap core JavaScript
-    ================================================== -->
+    ==================================================
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
