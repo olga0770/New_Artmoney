@@ -71,18 +71,34 @@ include('header.php');
 
 <a href="" class="btn btn-outline-dark btn-sm btn-square artist_website" role="button" aria-pressed="true">MORE INFO...</a><br><br>
 
-
-<!--
-<div class="social_media"><div class="facebook"></div>
-<div class="instagram"></div>
-<div class="pinterest"></div></div><br><br>
--->
-
-
 </div>
 </div>
 </div>
 <br>
+
+
+
+
+
+<div class="container-fluid">
+<div class="row justify-content-center">
+
+<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 news_picture">
+</div>
+
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 news_description">
+
+<h4>Our Instagram Gallery</h4>
+
+<iframe src="//users.instush.com/xmini/?tiny=true&user_id=6311066350&username=artmoney_drawyourownmoney&sid=-1&susername=-1&tag=-1&stype=mine&t=9999995oXDUXDRbI2UazqJr5AnuVX4ec-x4fFDWpq2ZDSNps-0NZbwQ3k5Pfl7GgK6GE0wf7w-mF1l_G8" allowtransparency="true" frameborder="0" scrolling="no"  style="display:block;width:306px;height:306px;border:none;overflow:visible;" ></iframe>
+
+</div>
+</div>
+</div>
+<br><br>
+
+
+
 
 
 

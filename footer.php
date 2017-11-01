@@ -61,8 +61,8 @@
 <p class="font_small"><a class="mail" href="mailto:artmoney@mail.dk">artmoney@mail.dk</a> / +45 24251777 / BIAM ApS – Artmoney</p>
 
 <div class="social_media_white">
-<div class="facebook_white"></div>
-<div class="instagram_white"></div>
+<a href="https://www.facebook.com/ArtmoneyDrawYourOwnMoney/"><div class="facebook_white"></div></a>
+<a href="https://www.instagram.com/artmoney_drawyourownmoney/"><div class="instagram_white"></div></a>
 <div class="pinterest_white"></div></div>
 </div>
 
