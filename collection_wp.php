@@ -187,27 +187,10 @@ transition: .4s;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php
 $pagename = 'collection_wp';
 include('footer.php');
 ?>
-
-
 
 
 <!--Template pictures start-->

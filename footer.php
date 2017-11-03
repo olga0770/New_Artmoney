@@ -63,6 +63,8 @@
 <div class="social_media_white">
 <a href="https://www.facebook.com/ArtmoneyDrawYourOwnMoney/"><div class="facebook_white"></div></a>
 <a href="https://www.instagram.com/artmoney_drawyourownmoney/"><div class="instagram_white"></div></a>
-<div class="pinterest_white"></div></div>
+<a href="https://www.pinterest.dk/Lykke_dk/artmoney-draw-your-own-money/"><div class="pinterest_white"></div></a>
+<a href="https://web.telegram.org/#/im?p=@artmoney_drawyouownmoney"><div class="telegram_white"></div></a>
+</div>
 </div>
 

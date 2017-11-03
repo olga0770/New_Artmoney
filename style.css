@@ -496,7 +496,7 @@ width: 50px;
 height: 44px;
 top: 0;
 left: 50%;
-margin-left: -100px;
+margin-left: -125px;
 margin-bottom: 10px;
 background-image: url(picture/icon_Facebook_white-01.svg);
 position: absolute;
@@ -507,7 +507,7 @@ width: 50px;
 height: 44px;
 top: 0;
 left: 50%;
-margin-left: -25px;
+margin-left: -62px;
 background-image: url(picture/icon_Instagram_white-01.svg);
 position: absolute;
 }
@@ -517,8 +517,18 @@ width: 50px;
 height: 44px;
 top: 0;
 left: 50%;
-margin-left: 50px;
+margin-left:0px;
 background-image: url(picture/icon_Pinterest-white-01.svg);
+position: absolute;
+}
+
+.telegram_white{
+width: 50px;
+height: 44px;
+top: 0;
+left: 50%;
+margin-left: 62px;
+background-image: url(picture/icon_Telegram_white-01.svg);
 position: absolute;
 }
 

@@ -147,7 +147,7 @@
 </div>
 
 <div class="col-xs-8 col-sm-4 col-md-4 col-lg-3 icon">
-<a href="partners.php"><img src="picture/Icon_Use_Artmoney-01.svg" alt="icon">
+<a href="shops_wp.php"><img src="picture/Icon_Use_Artmoney-01.svg" alt="icon">
 <h5>USE ARTMONEY</h5></a>
 </div>
 
