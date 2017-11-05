@@ -77,7 +77,7 @@ include('header.php');
     </div>
 </div>
 
-<p>Artmoney starts a social project that aiming to attract some public attention to prisoners' problems and find talented, artistically gifted people between them. We think these people can create unusual and really interesting art. They can also sell their production after their registration on our website and be part of our creative community. And it's free for them! We are sure that their unusual point of view can also attract more collectors who are excited about prison art.</p>
+<p>Artmoney is a social project that aims to attract public attention to prisoners' artistic skills. We believe that we by giving prisoners a possibility to earn money while in prison, can motivate and inspire them to persue this line of work after their prison time. We believe that prisoners can create unusual and really interesting art. We will enable them to sell their artmoney on our website and be part of our creative community. We are sure that their unusual point of view will also attract more collectors who are excited about art in general.</p>
 
 <h3>WATCH OUR VIDEO AND JOIN ARTMONEY!</h3>
 
