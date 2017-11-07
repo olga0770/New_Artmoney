@@ -98,7 +98,7 @@
 
 
 <div id="overlay">
-<div id="title"><p>Alternative currency made of original art</p>
+<div id="title"><p>Alternative currency made of original art / KEA School Project</p>
     <div class="container-fluid">
         <div class="row justify-content-end moto">
             <div class="col-xs-8 col-sm-8 col-mg-8 col-lg-8 needcash">
